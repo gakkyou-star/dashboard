@@ -1,0 +1,4005 @@
+{
+  "generated_at": "2026-08-28 21:16",
+  "source_file": "北海道鹿追高等学校_2026年度_レポート（生徒1回目回答）_全校.xlsx",
+  "source_updated": "2026-08-25",
+  "respondents": {
+    "2024": 150,
+    "2025": 169,
+    "2026": 171
+  },
+  "policy_labels": {
+    "policy1": "政策1: グローバル社会における人材育成",
+    "policy2": "政策2: イノベーションを担う人材育成",
+    "policy3": "政策3: 主体的に社会の形成に参画する態度の育成・規範意識の醸成",
+    "policy4": "政策4: 生涯学び、活躍できる環境整備",
+    "policy5": "政策5: 確かな学力の育成、幅広い知識と教養・専門的能力・職業実践力の育成",
+    "policy6": "政策6: 多様な教育ニーズへの対応と社会的包摂",
+    "policy7": "政策7: 豊かな心の育成",
+    "policy8": "政策8: 健やかな体の育成、スポーツを通じた豊かな心身の育成",
+    "policy9": "政策9: 地域コミュニティの基盤を支える社会教育の推進",
+    "policy10": "政策10: 地域・学校・家庭の連携・協働の推進による地域の教育力の向上",
+    "policy11": "政策11: 教育DXの推進・デジタル人材の育成",
+    "policy12": "政策12: 指導体制・ICT環境の整備、教育基盤の強化",
+    "policy13": "政策13: 経済的状況、地理的条件によらない学びの確保",
+    "policy14": "政策14: NPO・企業・団体等との連携・協働",
+    "policy15": "政策15: 安全・安心で質の高い教育研究環境の整備、児童生徒等の安全確保"
+  },
+  "categories": [
+    {
+      "key": "agency_activity",
+      "label": "主体性に関わる学習活動",
+      "trait": "主体性",
+      "layer": "学習活動",
+      "school": {
+        "2024": 53.0,
+        "2025": 59.5,
+        "2026": 64.0
+      },
+      "yoy_diff": 4.5,
+      "national_trend_diff": 10.3,
+      "prefecture": {
+        "2024": 55.6,
+        "2025": 53.1,
+        "2026": 63.2
+      },
+      "national": {
+        "2024": 52.7,
+        "2025": 53.7,
+        "2026": 55.0
+      },
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "5",
+          "text": "自主的に調べ物や取材を行う",
+          "school": {
+            "2024": 74.0,
+            "2025": 74.6,
+            "2026": 80.1
+          },
+          "yoy_diff": 5.5,
+          "national_trend_diff": 6.0,
+          "prefecture": {
+            "2024": 75.1,
+            "2025": 75.2,
+            "2026": 79.8
+          },
+          "national": {
+            "2024": 73.3,
+            "2025": 74.1,
+            "2026": 72.7
+          },
+          "category_key": "agency_activity",
+          "category_label": "主体性に関わる学習活動",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        },
+        {
+          "no": "6",
+          "text": "学校外のいろいろな人に話を聞きに行く",
+          "school": {
+            "2024": 32.0,
+            "2025": 44.4,
+            "2026": 48.0
+          },
+          "yoy_diff": 3.6,
+          "national_trend_diff": 14.8,
+          "prefecture": {
+            "2024": 36.1,
+            "2025": 31.1,
+            "2026": 46.5
+          },
+          "national": {
+            "2024": 32.0,
+            "2025": 33.2,
+            "2026": 37.4
+          },
+          "category_key": "agency_activity",
+          "category_label": "主体性に関わる学習活動",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "collaboration_activity",
+      "label": "協働性に関わる学習活動",
+      "trait": "協働性",
+      "layer": "学習活動",
+      "school": {
+        "2024": 69.2,
+        "2025": 75.0,
+        "2026": 80.6
+      },
+      "yoy_diff": 5.6,
+      "national_trend_diff": 3.8,
+      "prefecture": {
+        "2024": 75.3,
+        "2025": 74.5,
+        "2026": 80.0
+      },
+      "national": {
+        "2024": 76.3,
+        "2025": 76.8,
+        "2026": 77.0
+      },
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ],
+      "questions": [
+        {
+          "no": "7",
+          "text": "グループで協力しながら学習や調べものを行う",
+          "school": {
+            "2024": 88.7,
+            "2025": 91.1,
+            "2026": 86.5
+          },
+          "yoy_diff": -4.6,
+          "national_trend_diff": 2.4,
+          "prefecture": {
+            "2024": 83.1,
+            "2025": 81.8,
+            "2026": 88.0
+          },
+          "national": {
+            "2024": 84.8,
+            "2025": 84.1,
+            "2026": 84.1
+          },
+          "category_key": "collaboration_activity",
+          "category_label": "協働性に関わる学習活動",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "8",
+          "text": "活動、学習内容について生徒同士で話し合う",
+          "school": {
+            "2024": 82.0,
+            "2025": 89.3,
+            "2026": 90.1
+          },
+          "yoy_diff": 0.8,
+          "national_trend_diff": 1.5,
+          "prefecture": {
+            "2024": 86.0,
+            "2025": 88.1,
+            "2026": 88.1
+          },
+          "national": {
+            "2024": 88.4,
+            "2025": 88.6,
+            "2026": 87.6
+          },
+          "category_key": "collaboration_activity",
+          "category_label": "協働性に関わる学習活動",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "9",
+          "text": "活動、学習内容について大人（教員や地域の大人）と話し合う",
+          "school": {
+            "2024": 53.3,
+            "2025": 50.3,
+            "2026": 67.3
+          },
+          "yoy_diff": 17.0,
+          "national_trend_diff": 14.3,
+          "prefecture": {
+            "2024": 52.2,
+            "2025": 44.7,
+            "2026": 66.0
+          },
+          "national": {
+            "2024": 51.9,
+            "2025": 53.0,
+            "2026": 56.4
+          },
+          "category_key": "collaboration_activity",
+          "category_label": "協働性に関わる学習活動",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "13",
+          "text": "生徒同士で活動、学習の振り返りを行う",
+          "school": {
+            "2024": 52.7,
+            "2025": 69.2,
+            "2026": 78.4
+          },
+          "yoy_diff": 9.2,
+          "national_trend_diff": 9.5,
+          "prefecture": {
+            "2024": 66.6,
+            "2025": 68.3,
+            "2026": 70.3
+          },
+          "national": {
+            "2024": 67.7,
+            "2025": 68.9,
+            "2026": 66.7
+          },
+          "category_key": "collaboration_activity",
+          "category_label": "協働性に関わる学習活動",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "inquiry_activity",
+      "label": "探究性に関わる学習活動",
+      "trait": "探究性",
+      "layer": "学習活動",
+      "school": {
+        "2024": 68.4,
+        "2025": 70.2,
+        "2026": 77.4
+      },
+      "yoy_diff": 7.2,
+      "national_trend_diff": 9.9,
+      "prefecture": {
+        "2024": 67.8,
+        "2025": 65.7,
+        "2026": 69.9
+      },
+      "national": {
+        "2024": 67.5,
+        "2025": 67.5,
+        "2026": 63.3
+      },
+      "policy_tags": [
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "10",
+          "text": "自分の考えを文章や図表にまとめる",
+          "school": {
+            "2024": 60.7,
+            "2025": 62.1,
+            "2026": 67.8
+          },
+          "yoy_diff": 5.7,
+          "national_trend_diff": 2.2,
+          "prefecture": {
+            "2024": 64.9,
+            "2025": 65.1,
+            "2026": 64.0
+          },
+          "national": {
+            "2024": 66.0,
+            "2025": 65.6,
+            "2026": 60.5
+          },
+          "category_key": "inquiry_activity",
+          "category_label": "探究性に関わる学習活動",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "11",
+          "text": "話し合った内容をまとめる",
+          "school": {
+            "2024": 69.3,
+            "2025": 69.2,
+            "2026": 80.7
+          },
+          "yoy_diff": 11.5,
+          "national_trend_diff": 2.5,
+          "prefecture": {
+            "2024": 72.3,
+            "2025": 72.3,
+            "2026": 78.6
+          },
+          "national": {
+            "2024": 77.7,
+            "2025": 78.2,
+            "2026": 77.0
+          },
+          "category_key": "inquiry_activity",
+          "category_label": "探究性に関わる学習活動",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "12",
+          "text": "活動、学習のまとめを発表する",
+          "school": {
+            "2024": 75.3,
+            "2025": 79.3,
+            "2026": 83.6
+          },
+          "yoy_diff": 4.3,
+          "national_trend_diff": 17.7,
+          "prefecture": {
+            "2024": 68.6,
+            "2025": 64.2,
+            "2026": 72.3
+          },
+          "national": {
+            "2024": 65.5,
+            "2025": 65.9,
+            "2026": 61.9
+          },
+          "category_key": "inquiry_activity",
+          "category_label": "探究性に関わる学習活動",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sociality_activity",
+      "label": "社会性に関わる学習活動",
+      "trait": "社会性",
+      "layer": "学習活動",
+      "school": {
+        "2024": 54.7,
+        "2025": 53.6,
+        "2026": 67.1
+      },
+      "yoy_diff": 13.5,
+      "national_trend_diff": 17.8,
+      "prefecture": {
+        "2024": 50.6,
+        "2025": 44.8,
+        "2026": 62.1
+      },
+      "national": {
+        "2024": 48.5,
+        "2025": 49.3,
+        "2026": 49.3
+      },
+      "policy_tags": [
+        "policy10",
+        "policy9"
+      ],
+      "questions": [
+        {
+          "no": "14",
+          "text": "地域の魅力や資源について考える",
+          "school": {
+            "2024": 58.7,
+            "2025": 56.8,
+            "2026": 70.8
+          },
+          "yoy_diff": 14.0,
+          "national_trend_diff": 21.2,
+          "prefecture": {
+            "2024": 40.5,
+            "2025": 41.1,
+            "2026": 71.5
+          },
+          "national": {
+            "2024": 48.3,
+            "2025": 49.6,
+            "2026": 56.1
+          },
+          "category_key": "sociality_activity",
+          "category_label": "社会性に関わる学習活動",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "school": {
+            "2024": 61.3,
+            "2025": 55.6,
+            "2026": 72.5
+          },
+          "yoy_diff": 16.9,
+          "national_trend_diff": 23.5,
+          "prefecture": {
+            "2024": 55.0,
+            "2025": 43.2,
+            "2026": 68.5
+          },
+          "national": {
+            "2024": 48.0,
+            "2025": 49.0,
+            "2026": 52.5
+          },
+          "category_key": "sociality_activity",
+          "category_label": "社会性に関わる学習活動",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        },
+        {
+          "no": "16",
+          "text": "日本や世界の課題の解決方法について考える",
+          "school": {
+            "2024": 44.0,
+            "2025": 48.5,
+            "2026": 57.9
+          },
+          "yoy_diff": 9.4,
+          "national_trend_diff": 8.4,
+          "prefecture": {
+            "2024": 50.5,
+            "2025": 47.8,
+            "2026": 52.1
+          },
+          "national": {
+            "2024": 49.1,
+            "2025": 49.5,
+            "2026": 43.9
+          },
+          "category_key": "sociality_activity",
+          "category_label": "社会性に関わる学習活動",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "agency_environment",
+      "label": "主体性に関わる学習環境",
+      "trait": "主体性",
+      "layer": "学習環境",
+      "school": {
+        "2024": 83.1,
+        "2025": 86.0,
+        "2026": 90.4
+      },
+      "yoy_diff": 4.4,
+      "national_trend_diff": 1.4,
+      "prefecture": {
+        "2024": 86.9,
+        "2025": 86.8,
+        "2026": 86.0
+      },
+      "national": {
+        "2024": 88.2,
+        "2025": 89.0,
+        "2026": 89.2
+      },
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "20",
+          "text": "失敗してもよいという安全・安心な雰囲気がある",
+          "school": {
+            "2024": 70.7,
+            "2025": 80.5,
+            "2026": 86.5
+          },
+          "yoy_diff": 6.0,
+          "national_trend_diff": 4.9,
+          "prefecture": {
+            "2024": 76.5,
+            "2025": 78.5,
+            "2026": 76.5
+          },
+          "national": {
+            "2024": 80.7,
+            "2025": 81.6,
+            "2026": 83.1
+          },
+          "category_key": "agency_environment",
+          "category_label": "主体性に関わる学習環境",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        },
+        {
+          "no": "21",
+          "text": "挑戦する人に対して、応援する雰囲気がある",
+          "school": {
+            "2024": 87.3,
+            "2025": 89.9,
+            "2026": 93.0
+          },
+          "yoy_diff": 3.1,
+          "national_trend_diff": -0.5,
+          "prefecture": {
+            "2024": 92.3,
+            "2025": 89.7,
+            "2026": 90.7
+          },
+          "national": {
+            "2024": 92.8,
+            "2025": 93.5,
+            "2026": 93.3
+          },
+          "category_key": "agency_environment",
+          "category_label": "主体性に関わる学習環境",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        },
+        {
+          "no": "26",
+          "text": "自分が何かに挑戦しようと思ったとき、周りは手を差し伸べてくれる",
+          "school": {
+            "2024": 87.3,
+            "2025": 87.6,
+            "2026": 91.8
+          },
+          "yoy_diff": 4.2,
+          "national_trend_diff": -0.7,
+          "prefecture": {
+            "2024": 90.6,
+            "2025": 91.2,
+            "2026": 88.1
+          },
+          "national": {
+            "2024": 91.8,
+            "2025": 92.5,
+            "2026": 92.6
+          },
+          "category_key": "agency_environment",
+          "category_label": "主体性に関わる学習環境",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        },
+        {
+          "no": "33",
+          "text": "目標や当事者意識を持って挑戦している人がいる",
+          "school": {
+            "2024": 83.3,
+            "2025": 81.7,
+            "2026": 90.1
+          },
+          "yoy_diff": 8.4,
+          "national_trend_diff": 3.2,
+          "prefecture": {
+            "2024": 87.3,
+            "2025": 81.9,
+            "2026": 90.3
+          },
+          "national": {
+            "2024": 86.0,
+            "2025": 86.9,
+            "2026": 86.4
+          },
+          "category_key": "agency_environment",
+          "category_label": "主体性に関わる学習環境",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        },
+        {
+          "no": "35",
+          "text": "周りの大人は、自分に関わることについて自分で決めることを尊重してくれる",
+          "school": {
+            "2024": 86.7,
+            "2025": 90.5,
+            "2026": 90.6
+          },
+          "yoy_diff": 0.1,
+          "national_trend_diff": -1.1,
+          "prefecture": {
+            "2024": 91.1,
+            "2025": 91.1,
+            "2026": 89.7
+          },
+          "national": {
+            "2024": 91.0,
+            "2025": 91.7,
+            "2026": 91.3
+          },
+          "category_key": "agency_environment",
+          "category_label": "主体性に関わる学習環境",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "collaboration_environment",
+      "label": "協働性に関わる学習環境",
+      "trait": "協働性",
+      "layer": "学習環境",
+      "school": {
+        "2024": 71.2,
+        "2025": 75.7,
+        "2026": 84.0
+      },
+      "yoy_diff": 8.3,
+      "national_trend_diff": 4.5,
+      "prefecture": {
+        "2024": 75.4,
+        "2025": 75.7,
+        "2026": 79.6
+      },
+      "national": {
+        "2024": 77.8,
+        "2025": 79.5,
+        "2026": 80.3
+      },
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ],
+      "questions": [
+        {
+          "no": "22",
+          "text": "人と違うことが尊重される雰囲気がある",
+          "school": {
+            "2024": 66.0,
+            "2025": 71.0,
+            "2026": 84.2
+          },
+          "yoy_diff": 13.2,
+          "national_trend_diff": -0.1,
+          "prefecture": {
+            "2024": 76.7,
+            "2025": 80.8,
+            "2026": 77.5
+          },
+          "national": {
+            "2024": 83.0,
+            "2025": 84.3,
+            "2026": 84.0
+          },
+          "category_key": "collaboration_environment",
+          "category_label": "協働性に関わる学習環境",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "23",
+          "text": "ありのままの自分が尊重される雰囲気がある",
+          "school": {
+            "2024": 71.3,
+            "2025": 80.5,
+            "2026": 86.0
+          },
+          "yoy_diff": 5.5,
+          "national_trend_diff": -0.9,
+          "prefecture": {
+            "2024": 83.7,
+            "2025": 77.9,
+            "2026": 81.2
+          },
+          "national": {
+            "2024": 86.0,
+            "2025": 86.9,
+            "2026": 86.4
+          },
+          "category_key": "collaboration_environment",
+          "category_label": "協働性に関わる学習環境",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "27",
+          "text": "自分と異なる立場や役割を持つ人との関わりがある",
+          "school": {
+            "2024": 83.3,
+            "2025": 84.0,
+            "2026": 87.1
+          },
+          "yoy_diff": 3.1,
+          "national_trend_diff": 0.0,
+          "prefecture": {
+            "2024": 86.6,
+            "2025": 81.0,
+            "2026": 87.9
+          },
+          "national": {
+            "2024": 86.7,
+            "2025": 87.1,
+            "2026": 87.0
+          },
+          "category_key": "collaboration_environment",
+          "category_label": "協働性に関わる学習環境",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "28",
+          "text": "立場や役割を超えて協働する機会がある",
+          "school": {
+            "2024": 69.3,
+            "2025": 72.2,
+            "2026": 84.2
+          },
+          "yoy_diff": 12.0,
+          "national_trend_diff": 4.1,
+          "prefecture": {
+            "2024": 75.4,
+            "2025": 77.7,
+            "2026": 81.0
+          },
+          "national": {
+            "2024": 78.1,
+            "2025": 80.1,
+            "2026": 81.2
+          },
+          "category_key": "collaboration_environment",
+          "category_label": "協働性に関わる学習環境",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "30",
+          "text": "人の挑戦に関わらせてもらえる機会がある",
+          "school": {
+            "2024": 66.0,
+            "2025": 71.0,
+            "2026": 78.4
+          },
+          "yoy_diff": 7.4,
+          "national_trend_diff": 9.5,
+          "prefecture": {
+            "2024": 65.9,
+            "2025": 66.2,
+            "2026": 76.5
+          },
+          "national": {
+            "2024": 66.0,
+            "2025": 68.9,
+            "2026": 71.5
+          },
+          "category_key": "collaboration_environment",
+          "category_label": "協働性に関わる学習環境",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "inquiry_environment",
+      "label": "探究性に関わる学習環境",
+      "trait": "探究性",
+      "layer": "学習環境",
+      "school": {
+        "2024": 75.1,
+        "2025": 79.3,
+        "2026": 86.3
+      },
+      "yoy_diff": 7.0,
+      "national_trend_diff": 2.4,
+      "prefecture": {
+        "2024": 81.2,
+        "2025": 82.3,
+        "2026": 82.4
+      },
+      "national": {
+        "2024": 82.7,
+        "2025": 83.9,
+        "2026": 84.1
+      },
+      "policy_tags": [
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "17",
+          "text": "本音を気兼ねなく発言できる雰囲気がある",
+          "school": {
+            "2024": 74.7,
+            "2025": 84.6,
+            "2026": 90.1
+          },
+          "yoy_diff": 5.5,
+          "national_trend_diff": 5.0,
+          "prefecture": {
+            "2024": 79.4,
+            "2025": 83.5,
+            "2026": 77.0
+          },
+          "national": {
+            "2024": 83.7,
+            "2025": 85.1,
+            "2026": 83.9
+          },
+          "category_key": "inquiry_environment",
+          "category_label": "探究性に関わる学習環境",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "18",
+          "text": "将来のことや実現したいことを話し合える大人がいる",
+          "school": {
+            "2024": 78.7,
+            "2025": 78.1,
+            "2026": 85.4
+          },
+          "yoy_diff": 7.3,
+          "national_trend_diff": 1.4,
+          "prefecture": {
+            "2024": 82.3,
+            "2025": 83.1,
+            "2026": 82.1
+          },
+          "national": {
+            "2024": 83.0,
+            "2025": 84.0,
+            "2026": 84.7
+          },
+          "category_key": "inquiry_environment",
+          "category_label": "探究性に関わる学習環境",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "24",
+          "text": "周りの大人は、じっくりと話を聞き、考える手助けをしてくれる",
+          "school": {
+            "2024": 84.7,
+            "2025": 84.6,
+            "2026": 89.5
+          },
+          "yoy_diff": 4.9,
+          "national_trend_diff": -1.1,
+          "prefecture": {
+            "2024": 88.8,
+            "2025": 89.0,
+            "2026": 88.6
+          },
+          "national": {
+            "2024": 89.6,
+            "2025": 90.6,
+            "2026": 91.2
+          },
+          "category_key": "inquiry_environment",
+          "category_label": "探究性に関わる学習環境",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "31",
+          "text": "お互いに問いかけあう機会がある",
+          "school": {
+            "2024": 74.0,
+            "2025": 72.2,
+            "2026": 84.8
+          },
+          "yoy_diff": 12.6,
+          "national_trend_diff": 5.9,
+          "prefecture": {
+            "2024": 75.7,
+            "2025": 70.9,
+            "2026": 83.1
+          },
+          "national": {
+            "2024": 78.4,
+            "2025": 78.9,
+            "2026": 78.5
+          },
+          "category_key": "inquiry_environment",
+          "category_label": "探究性に関わる学習環境",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "36",
+          "text": "生徒の意見が学校での意思決定に反映される雰囲気がある",
+          "school": {
+            "2024": 63.3,
+            "2025": 76.9,
+            "2026": 81.9
+          },
+          "yoy_diff": 5.0,
+          "national_trend_diff": 4.2,
+          "prefecture": {
+            "2024": 76.7,
+            "2025": 76.6,
+            "2026": 81.6
+          },
+          "national": {
+            "2024": 75.9,
+            "2025": 77.7,
+            "2026": 78.6
+          },
+          "category_key": "inquiry_environment",
+          "category_label": "探究性に関わる学習環境",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sociality_environment",
+      "label": "社会性に関わる学習環境",
+      "trait": "社会性",
+      "layer": "学習環境",
+      "school": {
+        "2024": 69.2,
+        "2025": 76.1,
+        "2026": 82.3
+      },
+      "yoy_diff": 6.2,
+      "national_trend_diff": 16.6,
+      "prefecture": {
+        "2024": 66.2,
+        "2025": 62.4,
+        "2026": 76.5
+      },
+      "national": {
+        "2024": 63.9,
+        "2025": 65.7,
+        "2026": 70.2
+      },
+      "policy_tags": [
+        "policy10",
+        "policy9"
+      ],
+      "questions": [
+        {
+          "no": "19",
+          "text": "地域から大切にされている雰囲気を感じる",
+          "school": {
+            "2024": 82.0,
+            "2025": 94.1,
+            "2026": 93.6
+          },
+          "yoy_diff": -0.5,
+          "national_trend_diff": 10.8,
+          "prefecture": {
+            "2024": 75.8,
+            "2025": 72.8,
+            "2026": 89.5
+          },
+          "national": {
+            "2024": 81.1,
+            "2025": 82.8,
+            "2026": 87.7
+          },
+          "category_key": "sociality_environment",
+          "category_label": "社会性に関わる学習環境",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        },
+        {
+          "no": "25",
+          "text": "地域の人や課題など、興味を持ったことに対してすぐに橋渡しをしてくれる大人がいる",
+          "school": {
+            "2024": 80.0,
+            "2025": 82.2,
+            "2026": 91.2
+          },
+          "yoy_diff": 9.0,
+          "national_trend_diff": 10.4,
+          "prefecture": {
+            "2024": 78.8,
+            "2025": 78.5,
+            "2026": 86.2
+          },
+          "national": {
+            "2024": 79.1,
+            "2025": 80.8,
+            "2026": 83.7
+          },
+          "category_key": "sociality_environment",
+          "category_label": "社会性に関わる学習環境",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        },
+        {
+          "no": "29",
+          "text": "地域の人や課題などにじかに触れる機会がある",
+          "school": {
+            "2024": 70.7,
+            "2025": 76.9,
+            "2026": 83.6
+          },
+          "yoy_diff": 6.7,
+          "national_trend_diff": 22.4,
+          "prefecture": {
+            "2024": 65.0,
+            "2025": 56.2,
+            "2026": 81.9
+          },
+          "national": {
+            "2024": 59.0,
+            "2025": 61.2,
+            "2026": 68.7
+          },
+          "category_key": "sociality_environment",
+          "category_label": "社会性に関わる学習環境",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        },
+        {
+          "no": "32",
+          "text": "自分の暮らす地域を、外からの視点で考える機会がある",
+          "school": {
+            "2024": 66.0,
+            "2025": 68.6,
+            "2026": 78.4
+          },
+          "yoy_diff": 9.8,
+          "national_trend_diff": 19.3,
+          "prefecture": {
+            "2024": 62.3,
+            "2025": 56.4,
+            "2026": 74.4
+          },
+          "national": {
+            "2024": 57.2,
+            "2025": 59.1,
+            "2026": 63.2
+          },
+          "category_key": "sociality_environment",
+          "category_label": "社会性に関わる学習環境",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        },
+        {
+          "no": "34",
+          "text": "地域に、尊敬している・憧れている大人がいる",
+          "school": {
+            "2024": 47.3,
+            "2025": 58.6,
+            "2026": 64.9
+          },
+          "yoy_diff": 6.3,
+          "national_trend_diff": 8.6,
+          "prefecture": {
+            "2024": 55.0,
+            "2025": 54.9,
+            "2026": 58.8
+          },
+          "national": {
+            "2024": 54.7,
+            "2025": 56.3,
+            "2026": 58.7
+          },
+          "category_key": "sociality_environment",
+          "category_label": "社会性に関わる学習環境",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "agency_self_perception",
+      "label": "主体性に関わる自己認識",
+      "trait": "主体性",
+      "layer": "自己認識",
+      "school": {
+        "2024": 59.5,
+        "2025": 63.6,
+        "2026": 73.6
+      },
+      "yoy_diff": 10.0,
+      "national_trend_diff": 3.4,
+      "prefecture": {
+        "2024": 66.5,
+        "2025": 68.2,
+        "2026": 64.8
+      },
+      "national": {
+        "2024": 69.0,
+        "2025": 70.2,
+        "2026": 70.5
+      },
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "51",
+          "text": "自分にはよいところがあると思う",
+          "school": {
+            "2024": 67.3,
+            "2025": 76.9,
+            "2026": 77.8
+          },
+          "yoy_diff": 0.9,
+          "national_trend_diff": -3.2,
+          "prefecture": {
+            "2024": 79.0,
+            "2025": 81.2,
+            "2026": 71.3
+          },
+          "national": {
+            "2024": 79.6,
+            "2025": 81.0,
+            "2026": 79.2
+          },
+          "category_key": "agency_self_perception",
+          "category_label": "主体性に関わる自己認識",
+          "trait": "主体性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        },
+        {
+          "no": "52",
+          "text": "私は、自分自身に満足している",
+          "school": {
+            "2024": 48.0,
+            "2025": 59.2,
+            "2026": 69.6
+          },
+          "yoy_diff": 10.4,
+          "national_trend_diff": 10.8,
+          "prefecture": {
+            "2024": 53.3,
+            "2025": 55.5,
+            "2026": 51.4
+          },
+          "national": {
+            "2024": 57.2,
+            "2025": 58.8,
+            "2026": 57.5
+          },
+          "category_key": "agency_self_perception",
+          "category_label": "主体性に関わる自己認識",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        },
+        {
+          "no": "39",
+          "text": "現状を分析し、目的や課題を明らかにすることができる",
+          "school": {
+            "2024": 61.3,
+            "2025": 62.7,
+            "2026": 77.2
+          },
+          "yoy_diff": 14.5,
+          "national_trend_diff": 3.3,
+          "prefecture": {
+            "2024": 70.8,
+            "2025": 74.3,
+            "2026": 66.4
+          },
+          "national": {
+            "2024": 73.0,
+            "2025": 73.9,
+            "2026": 71.1
+          },
+          "category_key": "agency_self_perception",
+          "category_label": "主体性に関わる自己認識",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "40",
+          "text": "目標を設定し、確実に行動することができる",
+          "school": {
+            "2024": 49.3,
+            "2025": 56.2,
+            "2026": 67.3
+          },
+          "yoy_diff": 11.1,
+          "national_trend_diff": 4.6,
+          "prefecture": {
+            "2024": 59.8,
+            "2025": 58.8,
+            "2026": 60.5
+          },
+          "national": {
+            "2024": 61.3,
+            "2025": 62.7,
+            "2026": 65.7
+          },
+          "category_key": "agency_self_perception",
+          "category_label": "主体性に関わる自己認識",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2",
+            "policy3"
+          ]
+        },
+        {
+          "no": "53",
+          "text": "自分で計画を立てて活動することができる",
+          "school": {
+            "2024": 55.3,
+            "2025": 56.8,
+            "2026": 69.6
+          },
+          "yoy_diff": 12.8,
+          "national_trend_diff": 7.3,
+          "prefecture": {
+            "2024": 58.2,
+            "2025": 56.9,
+            "2026": 65.6
+          },
+          "national": {
+            "2024": 60.9,
+            "2025": 62.3,
+            "2026": 64.0
+          },
+          "category_key": "agency_self_perception",
+          "category_label": "主体性に関わる自己認識",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "37",
+          "text": "うまくいくか分からないことにも意欲的に取り組む",
+          "school": {
+            "2024": 71.3,
+            "2025": 72.2,
+            "2026": 82.5
+          },
+          "yoy_diff": 10.3,
+          "national_trend_diff": 4.3,
+          "prefecture": {
+            "2024": 72.6,
+            "2025": 76.0,
+            "2026": 73.1
+          },
+          "national": {
+            "2024": 77.2,
+            "2025": 78.2,
+            "2026": 79.0
+          },
+          "category_key": "agency_self_perception",
+          "category_label": "主体性に関わる自己認識",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "47",
+          "text": "忍耐強く物事に取り組むことができる",
+          "school": {
+            "2024": 64.0,
+            "2025": 60.9,
+            "2026": 71.3
+          },
+          "yoy_diff": 10.4,
+          "national_trend_diff": 0.6,
+          "prefecture": {
+            "2024": 67.2,
+            "2025": 69.0,
+            "2026": 65.6
+          },
+          "national": {
+            "2024": 69.8,
+            "2025": 70.7,
+            "2026": 73.1
+          },
+          "category_key": "agency_self_perception",
+          "category_label": "主体性に関わる自己認識",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "collaboration_self_perception",
+      "label": "協働性に関わる自己認識",
+      "trait": "協働性",
+      "layer": "自己認識",
+      "school": {
+        "2024": 68.4,
+        "2025": 74.4,
+        "2026": 78.9
+      },
+      "yoy_diff": 4.5,
+      "national_trend_diff": 0.1,
+      "prefecture": {
+        "2024": 76.7,
+        "2025": 77.0,
+        "2026": 73.9
+      },
+      "national": {
+        "2024": 78.1,
+        "2025": 78.8,
+        "2026": 79.4
+      },
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ],
+      "questions": [
+        {
+          "no": "43",
+          "text": "自分とは異なる意見や価値を尊重することができる",
+          "school": {
+            "2024": 86.0,
+            "2025": 91.7,
+            "2026": 94.2
+          },
+          "yoy_diff": 2.5,
+          "national_trend_diff": 1.2,
+          "prefecture": {
+            "2024": 90.9,
+            "2025": 91.8,
+            "2026": 88.7
+          },
+          "national": {
+            "2024": 93.1,
+            "2025": 93.0,
+            "2026": 93.1
+          },
+          "category_key": "collaboration_self_perception",
+          "category_label": "協働性に関わる自己認識",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "42",
+          "text": "相手の意見を丁寧に聞くことができる",
+          "school": {
+            "2024": 78.0,
+            "2025": 85.8,
+            "2026": 88.3
+          },
+          "yoy_diff": 2.5,
+          "national_trend_diff": -0.9,
+          "prefecture": {
+            "2024": 86.9,
+            "2025": 86.2,
+            "2026": 84.0
+          },
+          "national": {
+            "2024": 88.9,
+            "2025": 89.2,
+            "2026": 89.5
+          },
+          "category_key": "collaboration_self_perception",
+          "category_label": "協働性に関わる自己認識",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "49",
+          "text": "自分の考えをはっきり相手に伝えることができる",
+          "school": {
+            "2024": 66.0,
+            "2025": 69.2,
+            "2026": 74.3
+          },
+          "yoy_diff": 5.1,
+          "national_trend_diff": 2.5,
+          "prefecture": {
+            "2024": 68.5,
+            "2025": 70.5,
+            "2026": 63.7
+          },
+          "national": {
+            "2024": 70.1,
+            "2025": 71.8,
+            "2026": 71.2
+          },
+          "category_key": "collaboration_self_perception",
+          "category_label": "協働性に関わる自己認識",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "50",
+          "text": "友達の前で自分の意見を発表することは得意だ",
+          "school": {
+            "2024": 57.3,
+            "2025": 60.4,
+            "2026": 66.1
+          },
+          "yoy_diff": 5.7,
+          "national_trend_diff": 4.9,
+          "prefecture": {
+            "2024": 61.1,
+            "2025": 59.8,
+            "2026": 62.4
+          },
+          "national": {
+            "2024": 59.6,
+            "2025": 61.2,
+            "2026": 60.9
+          },
+          "category_key": "collaboration_self_perception",
+          "category_label": "協働性に関わる自己認識",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "44",
+          "text": "共同作業だと、自分の力が発揮できる",
+          "school": {
+            "2024": 54.7,
+            "2025": 65.1,
+            "2026": 71.9
+          },
+          "yoy_diff": 6.8,
+          "national_trend_diff": 1.7,
+          "prefecture": {
+            "2024": 67.1,
+            "2025": 67.8,
+            "2026": 64.5
+          },
+          "national": {
+            "2024": 69.5,
+            "2025": 70.2,
+            "2026": 70.9
+          },
+          "category_key": "collaboration_self_perception",
+          "category_label": "協働性に関わる自己認識",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "inquiry_self_perception",
+      "label": "探究性に関わる自己認識",
+      "trait": "探究性",
+      "layer": "自己認識",
+      "school": {
+        "2024": 57.8,
+        "2025": 62.7,
+        "2026": 72.9
+      },
+      "yoy_diff": 10.2,
+      "national_trend_diff": 2.1,
+      "prefecture": {
+        "2024": 67.2,
+        "2025": 69.6,
+        "2026": 66.0
+      },
+      "national": {
+        "2024": 69.9,
+        "2025": 70.8,
+        "2026": 70.1
+      },
+      "policy_tags": [
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "38",
+          "text": "家や寮で、誰かに言われなくても自分から勉強する",
+          "school": {
+            "2024": 55.3,
+            "2025": 59.2,
+            "2026": 66.1
+          },
+          "yoy_diff": 6.9,
+          "national_trend_diff": -1.6,
+          "prefecture": {
+            "2024": 62.5,
+            "2025": 66.6,
+            "2026": 59.3
+          },
+          "national": {
+            "2024": 67.6,
+            "2025": 67.7,
+            "2026": 66.2
+          },
+          "category_key": "inquiry_self_perception",
+          "category_label": "探究性に関わる自己認識",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "61",
+          "text": "地域社会の魅力や課題について、自主的にテーマを設定し、フィールドワーク等を行いながら調べ、考える学習活動に対して、熱心に取り組んでいる",
+          "school": {
+            "2024": 49.3,
+            "2025": 63.3,
+            "2026": 68.4
+          },
+          "yoy_diff": 5.1,
+          "national_trend_diff": 13.3,
+          "prefecture": {
+            "2024": 54.1,
+            "2025": 50.5,
+            "2026": 59.7
+          },
+          "national": {
+            "2024": 53.9,
+            "2025": 55.1,
+            "2026": 57.7
+          },
+          "category_key": "inquiry_self_perception",
+          "category_label": "探究性に関わる自己認識",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "67",
+          "text": "学校で学習することで、自分ができることやしたいことが増えている",
+          "school": {
+            "2024": 68.0,
+            "2025": 72.2,
+            "2026": 82.5
+          },
+          "yoy_diff": 10.3,
+          "national_trend_diff": -0.8,
+          "prefecture": {
+            "2024": 79.5,
+            "2025": 82.3,
+            "2026": 80.1
+          },
+          "national": {
+            "2024": 81.8,
+            "2025": 83.3,
+            "2026": 84.1
+          },
+          "category_key": "inquiry_self_perception",
+          "category_label": "探究性に関わる自己認識",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "45",
+          "text": "情報を、勉強したことや知っていることと関連づけて理解することができる",
+          "school": {
+            "2024": 72.0,
+            "2025": 71.0,
+            "2026": 80.7
+          },
+          "yoy_diff": 9.7,
+          "national_trend_diff": -2.1,
+          "prefecture": {
+            "2024": 79.7,
+            "2025": 82.9,
+            "2026": 74.9
+          },
+          "national": {
+            "2024": 82.3,
+            "2025": 82.8,
+            "2026": 80.4
+          },
+          "category_key": "inquiry_self_perception",
+          "category_label": "探究性に関わる自己認識",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "46",
+          "text": "勉強したものを実際に応用してみる",
+          "school": {
+            "2024": 53.3,
+            "2025": 51.5,
+            "2026": 63.7
+          },
+          "yoy_diff": 12.2,
+          "national_trend_diff": -5.2,
+          "prefecture": {
+            "2024": 64.1,
+            "2025": 68.1,
+            "2026": 62.3
+          },
+          "national": {
+            "2024": 67.7,
+            "2025": 68.9,
+            "2026": 68.5
+          },
+          "category_key": "inquiry_self_perception",
+          "category_label": "探究性に関わる自己認識",
+          "trait": "探究性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy2",
+            "policy5"
+          ]
+        },
+        {
+          "no": "41",
+          "text": "複雑な問題を順序立てて考えることが得意だ",
+          "school": {
+            "2024": 35.3,
+            "2025": 39.6,
+            "2026": 55.6
+          },
+          "yoy_diff": 16.0,
+          "national_trend_diff": 5.3,
+          "prefecture": {
+            "2024": 45.5,
+            "2025": 50.9,
+            "2026": 44.7
+          },
+          "national": {
+            "2024": 48.9,
+            "2025": 50.3,
+            "2026": 47.4
+          },
+          "category_key": "inquiry_self_perception",
+          "category_label": "探究性に関わる自己認識",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy5"
+          ]
+        },
+        {
+          "no": "54",
+          "text": "一つ二つの立場だけでなく、できるだけ多くの立場から考えようとする",
+          "school": {
+            "2024": 68.0,
+            "2025": 76.9,
+            "2026": 83.0
+          },
+          "yoy_diff": 6.1,
+          "national_trend_diff": 1.0,
+          "prefecture": {
+            "2024": 79.6,
+            "2025": 81.5,
+            "2026": 77.3
+          },
+          "national": {
+            "2024": 81.4,
+            "2025": 82.0,
+            "2026": 80.4
+          },
+          "category_key": "inquiry_self_perception",
+          "category_label": "探究性に関わる自己認識",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "48",
+          "text": "自分を客観的に理解することができる",
+          "school": {
+            "2024": 60.7,
+            "2025": 68.0,
+            "2026": 83.0
+          },
+          "yoy_diff": 15.0,
+          "national_trend_diff": 6.6,
+          "prefecture": {
+            "2024": 72.7,
+            "2025": 74.3,
+            "2026": 69.9
+          },
+          "national": {
+            "2024": 75.8,
+            "2025": 76.4,
+            "2026": 76.0
+          },
+          "category_key": "inquiry_self_perception",
+          "category_label": "探究性に関わる自己認識",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sociality_self_perception",
+      "label": "社会性に関わる自己認識",
+      "trait": "社会性",
+      "layer": "自己認識",
+      "school": {
+        "2024": 48.0,
+        "2025": 52.5,
+        "2026": 60.6
+      },
+      "yoy_diff": 8.1,
+      "national_trend_diff": -3.7,
+      "prefecture": {
+        "2024": 59.7,
+        "2025": 63.1,
+        "2026": 57.9
+      },
+      "national": {
+        "2024": 62.0,
+        "2025": 64.3,
+        "2026": 62.3
+      },
+      "policy_tags": [
+        "policy10",
+        "policy7"
+      ],
+      "questions": [
+        {
+          "no": "65",
+          "text": "将来の国や地域の担い手として、積極的に政策決定に関わりたい",
+          "school": {
+            "2024": 28.0,
+            "2025": 29.0,
+            "2026": 44.4
+          },
+          "yoy_diff": 15.4,
+          "national_trend_diff": -0.8,
+          "prefecture": {
+            "2024": 41.2,
+            "2025": 43.9,
+            "2026": 38.5
+          },
+          "national": {
+            "2024": 43.0,
+            "2025": 45.2,
+            "2026": 41.5
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3"
+          ]
+        },
+        {
+          "no": "56",
+          "text": "地域をよりよくするため、地域における問題に関わりたい",
+          "school": {
+            "2024": 36.0,
+            "2025": 50.3,
+            "2026": 57.3
+          },
+          "yoy_diff": 7.0,
+          "national_trend_diff": -4.6,
+          "prefecture": {
+            "2024": 56.2,
+            "2025": 59.0,
+            "2026": 59.6
+          },
+          "national": {
+            "2024": 59.2,
+            "2025": 61.9,
+            "2026": 61.6
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy10",
+            "policy7"
+          ]
+        },
+        {
+          "no": "58",
+          "text": "将来、自分の住んでいる地域のために役に立ちたいという気持ちがある",
+          "school": {
+            "2024": 45.3,
+            "2025": 53.3,
+            "2026": 61.4
+          },
+          "yoy_diff": 8.1,
+          "national_trend_diff": -7.3,
+          "prefecture": {
+            "2024": 64.0,
+            "2025": 66.0,
+            "2026": 63.1
+          },
+          "national": {
+            "2024": 67.0,
+            "2025": 68.7,
+            "2026": 69.6
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy10"
+          ]
+        },
+        {
+          "no": "57",
+          "text": "私が関わることで、変えてほしい社会状況が少し変えられるかもしれない",
+          "school": {
+            "2024": 32.7,
+            "2025": 41.4,
+            "2026": 50.3
+          },
+          "yoy_diff": 8.9,
+          "national_trend_diff": -3.0,
+          "prefecture": {
+            "2024": 46.1,
+            "2025": 53.1,
+            "2026": 43.4
+          },
+          "national": {
+            "2024": 48.9,
+            "2025": 53.3,
+            "2026": 47.4
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy3"
+          ]
+        },
+        {
+          "no": "62",
+          "text": "地域や社会で起こっている問題やできごとに関心がある",
+          "school": {
+            "2024": 48.7,
+            "2025": 58.6,
+            "2026": 63.7
+          },
+          "yoy_diff": 5.1,
+          "national_trend_diff": -7.3,
+          "prefecture": {
+            "2024": 67.8,
+            "2025": 71.0,
+            "2026": 64.3
+          },
+          "national": {
+            "2024": 69.5,
+            "2025": 71.0,
+            "2026": 67.1
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy3",
+            "policy10"
+          ]
+        },
+        {
+          "no": "55",
+          "text": "18歳選挙権を取得したら、選挙に行くと思う",
+          "school": {
+            "2024": 78.0,
+            "2025": 85.2,
+            "2026": 76.0
+          },
+          "yoy_diff": -9.2,
+          "national_trend_diff": -10.9,
+          "prefecture": {
+            "2024": 80.4,
+            "2025": 90.2,
+            "2026": 76.6
+          },
+          "national": {
+            "2024": 80.7,
+            "2025": 86.9,
+            "2026": 80.1
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy3"
+          ]
+        },
+        {
+          "no": "59",
+          "text": "地域で起きている課題と世界で起きている課題は、お互いに関連しあっていると感じる",
+          "school": {
+            "2024": 58.0,
+            "2025": null,
+            "2026": 69.0
+          },
+          "yoy_diff": null,
+          "national_trend_diff": -3.9,
+          "prefecture": {
+            "2024": 68.9,
+            "2025": 69.3,
+            "2026": 71.3
+          },
+          "national": {
+            "2024": 71.5,
+            "2025": 72.9,
+            "2026": 72.6
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy10",
+            "policy7"
+          ]
+        },
+        {
+          "no": "64",
+          "text": "将来、見知らぬ土地でチャレンジしてみたい",
+          "school": {
+            "2024": 74.7,
+            "2025": 76.3,
+            "2026": 80.7
+          },
+          "yoy_diff": 4.4,
+          "national_trend_diff": 6.0,
+          "prefecture": {
+            "2024": 70.9,
+            "2025": 72.9,
+            "2026": 74.3
+          },
+          "national": {
+            "2024": 73.8,
+            "2025": 74.7,
+            "2026": 73.7
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy7"
+          ]
+        },
+        {
+          "no": "63",
+          "text": "将来、自分のいま住んでいる地域で働きたいと思う",
+          "school": {
+            "2024": 26.0,
+            "2025": 22.5,
+            "2026": 35.7
+          },
+          "yoy_diff": 13.2,
+          "national_trend_diff": -10.8,
+          "prefecture": {
+            "2024": 44.6,
+            "2025": 46.4,
+            "2026": 36.0
+          },
+          "national": {
+            "2024": 45.6,
+            "2025": 46.5,
+            "2026": 48.1
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy10",
+            "policy5"
+          ]
+        },
+        {
+          "no": "60",
+          "text": "住んでいる地域の文化や暮らしの価値ある部分を、自らの手で未来に伝えていきたい",
+          "school": {
+            "2024": 34.0,
+            "2025": 43.8,
+            "2026": 58.5
+          },
+          "yoy_diff": 14.7,
+          "national_trend_diff": 0.0,
+          "prefecture": {
+            "2024": 52.4,
+            "2025": 56.0,
+            "2026": 54.1
+          },
+          "national": {
+            "2024": 56.1,
+            "2025": 58.5,
+            "2026": 57.3
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy7"
+          ]
+        },
+        {
+          "no": "68",
+          "text": "自分の将来について明るい希望を持っている",
+          "school": {
+            "2024": 66.7,
+            "2025": 65.1,
+            "2026": 69.0
+          },
+          "yoy_diff": 3.9,
+          "national_trend_diff": -5.3,
+          "prefecture": {
+            "2024": 70.1,
+            "2025": 71.1,
+            "2026": 65.2
+          },
+          "national": {
+            "2024": 73.4,
+            "2025": 74.3,
+            "2026": 74.3
+          },
+          "category_key": "sociality_self_perception",
+          "category_label": "社会性に関わる自己認識",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy10",
+            "policy7",
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "agency_action",
+      "label": "主体性に関わる行動",
+      "trait": "主体性",
+      "layer": "行動",
+      "school": {
+        "2024": 65.0,
+        "2025": 68.3,
+        "2026": 76.3
+      },
+      "yoy_diff": 8.0,
+      "national_trend_diff": 5.7,
+      "prefecture": {
+        "2024": 69.8,
+        "2025": 70.3,
+        "2026": 70.5
+      },
+      "national": {
+        "2024": 69.9,
+        "2025": 70.6,
+        "2026": 69.8
+      },
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "71",
+          "text": "授業で分からないことについて、自分から質問したり、分かる人に聞きにいったりした",
+          "school": {
+            "2024": 74.0,
+            "2025": 76.9,
+            "2026": 80.1
+          },
+          "yoy_diff": 3.2,
+          "national_trend_diff": 2.4,
+          "prefecture": {
+            "2024": 77.1,
+            "2025": 76.9,
+            "2026": 76.6
+          },
+          "national": {
+            "2024": 78.0,
+            "2025": 77.7,
+            "2026": 77.0
+          },
+          "category_key": "agency_action",
+          "category_label": "主体性に関わる行動",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        },
+        {
+          "no": "74",
+          "text": "授業で興味・関心を持った内容について、自主的に調べ物を行った",
+          "school": {
+            "2024": 56.0,
+            "2025": 59.8,
+            "2026": 72.5
+          },
+          "yoy_diff": 12.7,
+          "national_trend_diff": 9.1,
+          "prefecture": {
+            "2024": 62.5,
+            "2025": 63.7,
+            "2026": 64.3
+          },
+          "national": {
+            "2024": 61.8,
+            "2025": 63.4,
+            "2026": 62.5
+          },
+          "category_key": "agency_action",
+          "category_label": "主体性に関わる行動",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "collaboration_action",
+      "label": "協働性に関わる行動",
+      "trait": "協働性",
+      "layer": "行動",
+      "school": {
+        "2024": 69.7,
+        "2025": 69.8,
+        "2026": 73.7
+      },
+      "yoy_diff": 3.9,
+      "national_trend_diff": 0.3,
+      "prefecture": {
+        "2024": 70.7,
+        "2025": 71.9,
+        "2026": 70.0
+      },
+      "national": {
+        "2024": 72.6,
+        "2025": 73.4,
+        "2026": 72.4
+      },
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ],
+      "questions": [
+        {
+          "no": "72",
+          "text": "自分の考えについて、様々な人に意見やアドバイスを求めた",
+          "school": {
+            "2024": 68.7,
+            "2025": 68.0,
+            "2026": 73.7
+          },
+          "yoy_diff": 5.7,
+          "national_trend_diff": 0.4,
+          "prefecture": {
+            "2024": 69.7,
+            "2025": 71.2,
+            "2026": 70.1
+          },
+          "national": {
+            "2024": 72.2,
+            "2025": 73.3,
+            "2026": 72.3
+          },
+          "category_key": "collaboration_action",
+          "category_label": "協働性に関わる行動",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "73",
+          "text": "友人などから、意見やアドバイスを求められた",
+          "school": {
+            "2024": 70.7,
+            "2025": 71.6,
+            "2026": 73.7
+          },
+          "yoy_diff": 2.1,
+          "national_trend_diff": 0.1,
+          "prefecture": {
+            "2024": 71.8,
+            "2025": 72.6,
+            "2026": 69.9
+          },
+          "national": {
+            "2024": 73.0,
+            "2025": 73.6,
+            "2026": 72.4
+          },
+          "category_key": "collaboration_action",
+          "category_label": "協働性に関わる行動",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "inquiry_action",
+      "label": "探究性に関わる行動",
+      "trait": "探究性",
+      "layer": "行動",
+      "school": {
+        "2024": 53.3,
+        "2025": 56.2,
+        "2026": 72.8
+      },
+      "yoy_diff": 16.6,
+      "national_trend_diff": 4.8,
+      "prefecture": {
+        "2024": 65.6,
+        "2025": 70.6,
+        "2026": 61.3
+      },
+      "national": {
+        "2024": 66.7,
+        "2025": 68.0,
+        "2026": 65.4
+      },
+      "policy_tags": [
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "75",
+          "text": "授業の内容について、「なぜそうなるのか」と疑問を持って、自分で考えたり調べたりした",
+          "school": {
+            "2024": 57.3,
+            "2025": 59.2,
+            "2026": 76.6
+          },
+          "yoy_diff": 17.4,
+          "national_trend_diff": 6.4,
+          "prefecture": {
+            "2024": 68.0,
+            "2025": 72.7,
+            "2026": 64.4
+          },
+          "national": {
+            "2024": 68.7,
+            "2025": 70.2,
+            "2026": 67.5
+          },
+          "category_key": "inquiry_action",
+          "category_label": "探究性に関わる行動",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "76",
+          "text": "公式やきまりを習う時、その根拠を理解するように、自分で考えたり調べたりした",
+          "school": {
+            "2024": 49.3,
+            "2025": 53.3,
+            "2026": 69.0
+          },
+          "yoy_diff": 15.7,
+          "national_trend_diff": 3.1,
+          "prefecture": {
+            "2024": 63.3,
+            "2025": 68.6,
+            "2026": 58.1
+          },
+          "national": {
+            "2024": 64.7,
+            "2025": 65.9,
+            "2026": 63.3
+          },
+          "category_key": "inquiry_action",
+          "category_label": "探究性に関わる行動",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sociality_action",
+      "label": "社会性に関わる行動",
+      "trait": "社会性",
+      "layer": "行動",
+      "school": {
+        "2024": 42.7,
+        "2025": 45.6,
+        "2026": 61.8
+      },
+      "yoy_diff": 16.2,
+      "national_trend_diff": 26.5,
+      "prefecture": {
+        "2024": 36.5,
+        "2025": 35.0,
+        "2026": 54.0
+      },
+      "national": {
+        "2024": 34.8,
+        "2025": 35.3,
+        "2026": 38.7
+      },
+      "policy_tags": [
+        "policy10",
+        "policy9"
+      ],
+      "questions": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "school": {
+            "2024": 42.7,
+            "2025": 63.3,
+            "2026": 71.9
+          },
+          "yoy_diff": 8.6,
+          "national_trend_diff": 35.7,
+          "prefecture": {
+            "2024": 38.2,
+            "2025": 40.1,
+            "2026": 59.2
+          },
+          "national": {
+            "2024": 36.1,
+            "2025": 36.2,
+            "2026": 38.4
+          },
+          "category_key": "sociality_action",
+          "category_label": "社会性に関わる行動",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        },
+        {
+          "no": "70",
+          "text": "地域社会などでボランティア活動に参加した",
+          "school": {
+            "2024": 26.0,
+            "2025": 27.8,
+            "2026": 41.5
+          },
+          "yoy_diff": 13.7,
+          "national_trend_diff": 15.5,
+          "prefecture": {
+            "2024": 26.6,
+            "2025": 23.8,
+            "2026": 41.9
+          },
+          "national": {
+            "2024": 25.4,
+            "2025": 26.0,
+            "2026": 30.3
+          },
+          "category_key": "sociality_action",
+          "category_label": "社会性に関わる行動",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        },
+        {
+          "no": "77",
+          "text": "先生、保護者以外の地域の大人と、なにげない会話を交わした",
+          "school": {
+            "2024": 59.3,
+            "2025": null,
+            "2026": 71.9
+          },
+          "yoy_diff": null,
+          "national_trend_diff": 9.4,
+          "prefecture": {
+            "2024": 57.0,
+            "2025": 57.1,
+            "2026": 71.5
+          },
+          "national": {
+            "2024": 62.0,
+            "2025": 62.5,
+            "2026": 67.8
+          },
+          "category_key": "sociality_action",
+          "category_label": "社会性に関わる行動",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy9"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "misc",
+      "label": "学習・その他",
+      "trait": null,
+      "layer": "学習・その他",
+      "school": {
+        "2024": 44.5,
+        "2025": 53.1,
+        "2026": 57.6
+      },
+      "yoy_diff": 4.5,
+      "national_trend_diff": -9.5,
+      "prefecture": {
+        "2024": 67.3,
+        "2025": 65.5,
+        "2026": 62.0
+      },
+      "national": {
+        "2024": 66.8,
+        "2025": 67.1,
+        "2026": 63.9
+      },
+      "policy_tags": [],
+      "questions": [
+        {
+          "no": "90",
+          "text": "この学校を中学生におすすめできる",
+          "school": {
+            "2024": 70.7,
+            "2025": 83.4,
+            "2026": 84.2
+          },
+          "yoy_diff": 0.8,
+          "national_trend_diff": 2.0,
+          "prefecture": {
+            "2024": 81.3,
+            "2025": 83.1,
+            "2026": 77.2
+          },
+          "national": {
+            "2024": 80.9,
+            "2025": 82.2,
+            "2026": 80.8
+          },
+          "category_key": "misc",
+          "category_label": "学習・その他",
+          "trait": null,
+          "is_weak": false,
+          "policy_tags": []
+        },
+        {
+          "no": "78",
+          "text": "国際社会の課題解決に貢献したい",
+          "school": {
+            "2024": 31.3,
+            "2025": 45.0,
+            "2026": 50.3
+          },
+          "yoy_diff": 5.3,
+          "national_trend_diff": -4.1,
+          "prefecture": {
+            "2024": 55.6,
+            "2025": 48.5,
+            "2026": 53.9
+          },
+          "national": {
+            "2024": 55.2,
+            "2025": 54.4,
+            "2026": 50.9
+          },
+          "category_key": "misc",
+          "category_label": "学習・その他",
+          "trait": null,
+          "is_weak": true,
+          "policy_tags": [
+            "policy1"
+          ]
+        },
+        {
+          "no": "79",
+          "text": "まだ世の中にない新しい技術やサービスを生み出してみたい",
+          "school": {
+            "2024": 43.3,
+            "2025": 42.6,
+            "2026": 46.8
+          },
+          "yoy_diff": 4.2,
+          "national_trend_diff": -5.7,
+          "prefecture": {
+            "2024": 59.3,
+            "2025": 46.7,
+            "2026": 47.5
+          },
+          "national": {
+            "2024": 53.8,
+            "2025": 52.5,
+            "2026": 46.9
+          },
+          "category_key": "misc",
+          "category_label": "学習・その他",
+          "trait": null,
+          "is_weak": true,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "80",
+          "text": "客観的な証拠に基づき考え、判断する科学的視点から課題解決にあたることができる",
+          "school": {
+            "2024": 32.7,
+            "2025": 41.4,
+            "2026": 49.1
+          },
+          "yoy_diff": 7.7,
+          "national_trend_diff": -1.4,
+          "prefecture": {
+            "2024": 51.4,
+            "2025": 42.9,
+            "2026": 46.3
+          },
+          "national": {
+            "2024": 51.5,
+            "2025": 50.5,
+            "2026": 45.5
+          },
+          "category_key": "misc",
+          "category_label": "学習・その他",
+          "trait": null,
+          "is_weak": false,
+          "policy_tags": [
+            "policy2",
+            "policy5"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "agency_wellbeing",
+      "label": "主体性に関わるウェルビーイング",
+      "trait": "主体性",
+      "layer": "ウェルビーイング",
+      "school": {
+        "2024": 58.0,
+        "2025": 65.9,
+        "2026": 65.1
+      },
+      "yoy_diff": -0.8,
+      "national_trend_diff": -0.8,
+      "prefecture": {
+        "2024": 62.7,
+        "2025": 64.3,
+        "2026": 58.0
+      },
+      "national": {
+        "2024": 64.3,
+        "2025": 65.9,
+        "2026": 65.6
+      },
+      "policy_tags": [
+        "policy3",
+        "policy7"
+      ],
+      "questions": [
+        {
+          "no": "81",
+          "text": "今の生活全般の満足度",
+          "school": {
+            "2024": 67.3,
+            "2025": 72.2,
+            "2026": 70.2
+          },
+          "yoy_diff": -2.0,
+          "national_trend_diff": -3.0,
+          "prefecture": {
+            "2024": 70.3,
+            "2025": 72.6,
+            "2026": 65.1
+          },
+          "national": {
+            "2024": 71.0,
+            "2025": 73.2,
+            "2026": 71.8
+          },
+          "category_key": "agency_wellbeing",
+          "category_label": "主体性に関わるウェルビーイング",
+          "trait": "主体性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy7"
+          ]
+        },
+        {
+          "no": "82",
+          "text": "普段のあなたの幸福度",
+          "school": {
+            "2024": 60.0,
+            "2025": 68.0,
+            "2026": 69.0
+          },
+          "yoy_diff": 1.0,
+          "national_trend_diff": -4.4,
+          "prefecture": {
+            "2024": 69.7,
+            "2025": 73.7,
+            "2026": 62.1
+          },
+          "national": {
+            "2024": 71.4,
+            "2025": 73.4,
+            "2026": 70.8
+          },
+          "category_key": "agency_wellbeing",
+          "category_label": "主体性に関わるウェルビーイング",
+          "trait": "主体性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy7"
+          ]
+        },
+        {
+          "no": "83",
+          "text": "現在の日常生活に不安や心配事がない",
+          "school": {
+            "2024": 46.7,
+            "2025": 57.4,
+            "2026": 56.1
+          },
+          "yoy_diff": -1.3,
+          "national_trend_diff": 5.0,
+          "prefecture": {
+            "2024": 48.1,
+            "2025": 46.8,
+            "2026": 46.8
+          },
+          "national": {
+            "2024": 50.5,
+            "2025": 51.1,
+            "2026": 54.1
+          },
+          "category_key": "agency_wellbeing",
+          "category_label": "主体性に関わるウェルビーイング",
+          "trait": "主体性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy7"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "collaboration_wellbeing",
+      "label": "協働性に関わるウェルビーイング",
+      "trait": "協働性",
+      "layer": "ウェルビーイング",
+      "school": {
+        "2024": 77.8,
+        "2025": 85.6,
+        "2026": 86.5
+      },
+      "yoy_diff": 0.9,
+      "national_trend_diff": 0.5,
+      "prefecture": {
+        "2024": 83.6,
+        "2025": 84.7,
+        "2026": 80.7
+      },
+      "national": {
+        "2024": 85.3,
+        "2025": 86.0,
+        "2026": 85.7
+      },
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ],
+      "questions": [
+        {
+          "no": "66",
+          "text": "この学校に入ってよかったと思う",
+          "school": {
+            "2024": 79.3,
+            "2025": 86.4,
+            "2026": 88.9
+          },
+          "yoy_diff": 2.5,
+          "national_trend_diff": -0.1,
+          "prefecture": {
+            "2024": 88.1,
+            "2025": 89.8,
+            "2026": 86.6
+          },
+          "national": {
+            "2024": 88.1,
+            "2025": 89.0,
+            "2026": 87.8
+          },
+          "category_key": "collaboration_wellbeing",
+          "category_label": "協働性に関わるウェルビーイング",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "84",
+          "text": "学校の一員だと感じている",
+          "school": {
+            "2024": 80.0,
+            "2025": 89.9,
+            "2026": 88.9
+          },
+          "yoy_diff": -1.0,
+          "national_trend_diff": 0.9,
+          "prefecture": {
+            "2024": 85.6,
+            "2025": 87.3,
+            "2026": 82.7
+          },
+          "national": {
+            "2024": 87.3,
+            "2025": 88.0,
+            "2026": 88.4
+          },
+          "category_key": "collaboration_wellbeing",
+          "category_label": "協働性に関わるウェルビーイング",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        },
+        {
+          "no": "85",
+          "text": "大切な人を幸せにしたり、楽しませたりしていると思う",
+          "school": {
+            "2024": 74.0,
+            "2025": 80.5,
+            "2026": 81.9
+          },
+          "yoy_diff": 1.4,
+          "national_trend_diff": 0.9,
+          "prefecture": {
+            "2024": 77.0,
+            "2025": 77.0,
+            "2026": 72.8
+          },
+          "national": {
+            "2024": 80.3,
+            "2025": 81.0,
+            "2026": 81.1
+          },
+          "category_key": "collaboration_wellbeing",
+          "category_label": "協働性に関わるウェルビーイング",
+          "trait": "協働性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy3",
+            "policy6"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "inquiry_wellbeing",
+      "label": "探究性に関わるウェルビーイング",
+      "trait": "探究性",
+      "layer": "ウェルビーイング",
+      "school": {
+        "2024": 71.6,
+        "2025": 70.8,
+        "2026": 74.7
+      },
+      "yoy_diff": 3.9,
+      "national_trend_diff": -1.9,
+      "prefecture": {
+        "2024": 72.9,
+        "2025": 73.0,
+        "2026": 70.8
+      },
+      "national": {
+        "2024": 75.8,
+        "2025": 76.6,
+        "2026": 77.6
+      },
+      "policy_tags": [
+        "policy2"
+      ],
+      "questions": [
+        {
+          "no": "68",
+          "text": "自分の将来について明るい希望を持っている",
+          "school": {
+            "2024": 66.7,
+            "2025": 65.1,
+            "2026": 69.0
+          },
+          "yoy_diff": 3.9,
+          "national_trend_diff": -5.3,
+          "prefecture": {
+            "2024": 70.1,
+            "2025": 71.1,
+            "2026": 65.2
+          },
+          "national": {
+            "2024": 73.4,
+            "2025": 74.3,
+            "2026": 74.3
+          },
+          "category_key": "inquiry_wellbeing",
+          "category_label": "探究性に関わるウェルビーイング",
+          "trait": "探究性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "86",
+          "text": "自分の将来についての見通し（将来こういう風でありたい）を持っている",
+          "school": {
+            "2024": 76.7,
+            "2025": 75.7,
+            "2026": 77.8
+          },
+          "yoy_diff": 2.1,
+          "national_trend_diff": -0.9,
+          "prefecture": {
+            "2024": 75.1,
+            "2025": 74.6,
+            "2026": 74.6
+          },
+          "national": {
+            "2024": 78.1,
+            "2025": 78.7,
+            "2026": 80.4
+          },
+          "category_key": "inquiry_wellbeing",
+          "category_label": "探究性に関わるウェルビーイング",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        },
+        {
+          "no": "87",
+          "text": "自分の将来に向けて大切だと思うことを実行している",
+          "school": {
+            "2024": 71.3,
+            "2025": 71.6,
+            "2026": 77.2
+          },
+          "yoy_diff": 5.6,
+          "national_trend_diff": 0.4,
+          "prefecture": {
+            "2024": 73.5,
+            "2025": 73.3,
+            "2026": 72.6
+          },
+          "national": {
+            "2024": 76.0,
+            "2025": 76.8,
+            "2026": 78.1
+          },
+          "category_key": "inquiry_wellbeing",
+          "category_label": "探究性に関わるウェルビーイング",
+          "trait": "探究性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy2"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sociality_wellbeing",
+      "label": "社会性に関わるウェルビーイング",
+      "trait": "社会性",
+      "layer": "ウェルビーイング",
+      "school": {
+        "2024": 39.8,
+        "2025": 47.2,
+        "2026": 58.2
+      },
+      "yoy_diff": 11.0,
+      "national_trend_diff": -3.2,
+      "prefecture": {
+        "2024": 55.4,
+        "2025": 58.4,
+        "2026": 54.1
+      },
+      "national": {
+        "2024": 59.6,
+        "2025": 61.4,
+        "2026": 62.8
+      },
+      "policy_tags": [
+        "policy10",
+        "policy7"
+      ],
+      "questions": [
+        {
+          "no": "58",
+          "text": "将来、自分の住んでいる地域のために役に立ちたいという気持ちがある",
+          "school": {
+            "2024": 45.3,
+            "2025": 53.3,
+            "2026": 61.4
+          },
+          "yoy_diff": 8.1,
+          "national_trend_diff": -7.3,
+          "prefecture": {
+            "2024": 64.0,
+            "2025": 66.0,
+            "2026": 63.1
+          },
+          "national": {
+            "2024": 67.0,
+            "2025": 68.7,
+            "2026": 69.6
+          },
+          "category_key": "sociality_wellbeing",
+          "category_label": "社会性に関わるウェルビーイング",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy10"
+          ]
+        },
+        {
+          "no": "60",
+          "text": "住んでいる地域の文化や暮らしの価値ある部分を、自らの手で未来に伝えていきたい",
+          "school": {
+            "2024": 34.0,
+            "2025": 43.8,
+            "2026": 58.5
+          },
+          "yoy_diff": 14.7,
+          "national_trend_diff": 0.0,
+          "prefecture": {
+            "2024": 52.4,
+            "2025": 56.0,
+            "2026": 54.1
+          },
+          "national": {
+            "2024": 56.1,
+            "2025": 58.5,
+            "2026": 57.3
+          },
+          "category_key": "sociality_wellbeing",
+          "category_label": "社会性に関わるウェルビーイング",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy7"
+          ]
+        },
+        {
+          "no": "88",
+          "text": "この地域を、将来暮らす場所としておすすめできる",
+          "school": {
+            "2024": 44.7,
+            "2025": 55.6,
+            "2026": 60.2
+          },
+          "yoy_diff": 4.6,
+          "national_trend_diff": -12.3,
+          "prefecture": {
+            "2024": 67.1,
+            "2025": 74.6,
+            "2026": 54.9
+          },
+          "national": {
+            "2024": 70.5,
+            "2025": 72.5,
+            "2026": 70.1
+          },
+          "category_key": "sociality_wellbeing",
+          "category_label": "社会性に関わるウェルビーイング",
+          "trait": "社会性",
+          "is_weak": true,
+          "policy_tags": [
+            "policy10"
+          ]
+        },
+        {
+          "no": "89",
+          "text": "日本の将来は明るいと思う",
+          "school": {
+            "2024": 35.3,
+            "2025": 36.1,
+            "2026": 52.6
+          },
+          "yoy_diff": 16.5,
+          "national_trend_diff": 6.8,
+          "prefecture": {
+            "2024": 38.2,
+            "2025": 36.9,
+            "2026": 44.3
+          },
+          "national": {
+            "2024": 44.6,
+            "2025": 45.8,
+            "2026": 54.1
+          },
+          "category_key": "sociality_wellbeing",
+          "category_label": "社会性に関わるウェルビーイング",
+          "trait": "社会性",
+          "is_weak": false,
+          "policy_tags": [
+            "policy10",
+            "policy7"
+          ]
+        }
+      ]
+    }
+  ],
+  "trait_layer_growth": [
+    {
+      "trait": "主体性",
+      "avg_growth_2024_2026": 10.2
+    },
+    {
+      "trait": "協働性",
+      "avg_growth_2024_2026": 9.5
+    },
+    {
+      "trait": "探究性",
+      "avg_growth_2024_2026": 11.6
+    },
+    {
+      "trait": "社会性",
+      "avg_growth_2024_2026": 15.1
+    }
+  ],
+  "entrepreneurship": {
+    "summary": "挑戦する意欲・計画力は育っているが、成果を新しい価値へ転化する力（応用・創造）が課題",
+    "strengths": [
+      {
+        "no": "37",
+        "text": "うまくいくか分からないことにも意欲的に取り組む",
+        "v2025": 72.2,
+        "v2026": 82.5,
+        "yoy_diff": 10.3,
+        "national_trend_diff": 4.3,
+        "policy_tags": [
+          "policy2"
+        ]
+      },
+      {
+        "no": "39",
+        "text": "現状を分析し、目的や課題を明らかにすることができる",
+        "v2025": 62.7,
+        "v2026": 77.2,
+        "yoy_diff": 14.5,
+        "national_trend_diff": 3.3,
+        "policy_tags": [
+          "policy2"
+        ]
+      },
+      {
+        "no": "40",
+        "text": "目標を設定し、確実に行動することができる",
+        "v2025": 56.2,
+        "v2026": 67.3,
+        "yoy_diff": 11.1,
+        "national_trend_diff": 4.6,
+        "policy_tags": [
+          "policy2",
+          "policy3"
+        ]
+      },
+      {
+        "no": "53",
+        "text": "自分で計画を立てて活動することができる",
+        "v2025": 56.8,
+        "v2026": 69.6,
+        "yoy_diff": 12.8,
+        "national_trend_diff": 7.3,
+        "policy_tags": [
+          "policy2"
+        ]
+      },
+      {
+        "no": "47",
+        "text": "忍耐強く物事に取り組むことができる",
+        "v2025": 60.9,
+        "v2026": 71.3,
+        "yoy_diff": 10.4,
+        "national_trend_diff": 0.6,
+        "policy_tags": [
+          "policy2"
+        ]
+      },
+      {
+        "no": "65",
+        "text": "将来の国や地域の担い手として、積極的に政策決定に関わりたい",
+        "v2025": 29.0,
+        "v2026": 44.4,
+        "yoy_diff": 15.4,
+        "national_trend_diff": -0.8,
+        "policy_tags": [
+          "policy3"
+        ]
+      }
+    ],
+    "weaknesses": [
+      {
+        "no": "79",
+        "text": "まだ世の中にない新しい技術やサービスを生み出してみたい",
+        "v2025": 42.6,
+        "v2026": 46.8,
+        "yoy_diff": 4.2,
+        "national_trend_diff": -5.7,
+        "policy_tags": [
+          "policy2"
+        ]
+      },
+      {
+        "no": "46",
+        "text": "勉強したものを実際に応用してみる",
+        "v2025": 51.5,
+        "v2026": 63.7,
+        "yoy_diff": 12.2,
+        "national_trend_diff": -5.2,
+        "policy_tags": [
+          "policy2",
+          "policy5"
+        ]
+      },
+      {
+        "no": "80",
+        "text": "客観的な証拠に基づき考え、判断する科学的視点から課題解決にあたることができる",
+        "v2025": 41.4,
+        "v2026": 49.1,
+        "yoy_diff": 7.7,
+        "national_trend_diff": -1.4,
+        "policy_tags": [
+          "policy2",
+          "policy5"
+        ]
+      },
+      {
+        "no": "41",
+        "text": "複雑な問題を順序立てて考えることが得意だ",
+        "v2025": 39.6,
+        "v2026": 55.6,
+        "yoy_diff": 16.0,
+        "national_trend_diff": 5.3,
+        "policy_tags": [
+          "policy5"
+        ]
+      }
+    ]
+  },
+  "weak_points": [
+    {
+      "no": "88",
+      "text": "この地域を、将来暮らす場所としておすすめできる",
+      "category_label": "社会性に関わるウェルビーイング",
+      "v2026": 60.2,
+      "national_trend_diff": -12.3,
+      "policy_tags": [
+        "policy10"
+      ],
+      "priority": true,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "55",
+      "text": "18歳選挙権を取得したら、選挙に行くと思う",
+      "category_label": "社会性に関わる自己認識",
+      "v2026": 76.0,
+      "national_trend_diff": -10.9,
+      "policy_tags": [
+        "policy3"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "63",
+      "text": "将来、自分のいま住んでいる地域で働きたいと思う",
+      "category_label": "社会性に関わる自己認識",
+      "v2026": 35.7,
+      "national_trend_diff": -10.8,
+      "policy_tags": [
+        "policy10",
+        "policy5"
+      ],
+      "priority": true,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "58",
+      "text": "将来、自分の住んでいる地域のために役に立ちたいという気持ちがある",
+      "category_label": "社会性に関わる自己認識",
+      "v2026": 61.4,
+      "national_trend_diff": -7.3,
+      "policy_tags": [
+        "policy10"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "62",
+      "text": "地域や社会で起こっている問題やできごとに関心がある",
+      "category_label": "社会性に関わる自己認識",
+      "v2026": 63.7,
+      "national_trend_diff": -7.3,
+      "policy_tags": [
+        "policy3",
+        "policy10"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "79",
+      "text": "まだ世の中にない新しい技術やサービスを生み出してみたい",
+      "category_label": "学習・その他",
+      "v2026": 46.8,
+      "national_trend_diff": -5.7,
+      "policy_tags": [
+        "policy2"
+      ],
+      "priority": false,
+      "related_strengths": []
+    },
+    {
+      "no": "68",
+      "text": "自分の将来について明るい希望を持っている",
+      "category_label": "社会性に関わる自己認識",
+      "v2026": 69.0,
+      "national_trend_diff": -5.3,
+      "policy_tags": [
+        "policy10",
+        "policy7",
+        "policy2"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "46",
+      "text": "勉強したものを実際に応用してみる",
+      "category_label": "探究性に関わる自己認識",
+      "v2026": 63.7,
+      "national_trend_diff": -5.2,
+      "policy_tags": [
+        "policy2",
+        "policy5"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "12",
+          "text": "活動、学習のまとめを発表する",
+          "national_trend_diff": 17.7
+        },
+        {
+          "no": "61",
+          "text": "地域社会の魅力や課題について、自主的にテーマを設定し、フィールドワーク等を行いながら調べ、考える学習活動に対して、熱心に取り組んでいる",
+          "national_trend_diff": 13.3
+        }
+      ]
+    },
+    {
+      "no": "56",
+      "text": "地域をよりよくするため、地域における問題に関わりたい",
+      "category_label": "社会性に関わる自己認識",
+      "v2026": 57.3,
+      "national_trend_diff": -4.6,
+      "policy_tags": [
+        "policy10",
+        "policy7"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "82",
+      "text": "普段のあなたの幸福度",
+      "category_label": "主体性に関わるウェルビーイング",
+      "v2026": 69.0,
+      "national_trend_diff": -4.4,
+      "policy_tags": [
+        "policy7"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "6",
+          "text": "学校外のいろいろな人に話を聞きに行く",
+          "national_trend_diff": 14.8
+        },
+        {
+          "no": "52",
+          "text": "私は、自分自身に満足している",
+          "national_trend_diff": 10.8
+        }
+      ]
+    },
+    {
+      "no": "78",
+      "text": "国際社会の課題解決に貢献したい",
+      "category_label": "学習・その他",
+      "v2026": 50.3,
+      "national_trend_diff": -4.1,
+      "policy_tags": [
+        "policy1"
+      ],
+      "priority": false,
+      "related_strengths": []
+    },
+    {
+      "no": "59",
+      "text": "地域で起きている課題と世界で起きている課題は、お互いに関連しあっていると感じる",
+      "category_label": "社会性に関わる自己認識",
+      "v2026": 69.0,
+      "national_trend_diff": -3.9,
+      "policy_tags": [
+        "policy10",
+        "policy7"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "51",
+      "text": "自分にはよいところがあると思う",
+      "category_label": "主体性に関わる自己認識",
+      "v2026": 77.8,
+      "national_trend_diff": -3.2,
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "6",
+          "text": "学校外のいろいろな人に話を聞きに行く",
+          "national_trend_diff": 14.8
+        },
+        {
+          "no": "52",
+          "text": "私は、自分自身に満足している",
+          "national_trend_diff": 10.8
+        }
+      ]
+    },
+    {
+      "no": "57",
+      "text": "私が関わることで、変えてほしい社会状況が少し変えられるかもしれない",
+      "category_label": "社会性に関わる自己認識",
+      "v2026": 50.3,
+      "national_trend_diff": -3.0,
+      "policy_tags": [
+        "policy3"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "69",
+          "text": "いま住んでいる地域の行事に参加した",
+          "national_trend_diff": 35.7
+        },
+        {
+          "no": "15",
+          "text": "地域の課題の解決方法について考える",
+          "national_trend_diff": 23.5
+        }
+      ]
+    },
+    {
+      "no": "81",
+      "text": "今の生活全般の満足度",
+      "category_label": "主体性に関わるウェルビーイング",
+      "v2026": 70.2,
+      "national_trend_diff": -3.0,
+      "policy_tags": [
+        "policy7"
+      ],
+      "priority": false,
+      "related_strengths": [
+        {
+          "no": "6",
+          "text": "学校外のいろいろな人に話を聞きに行く",
+          "national_trend_diff": 14.8
+        },
+        {
+          "no": "52",
+          "text": "私は、自分自身に満足している",
+          "national_trend_diff": 10.8
+        }
+      ]
+    }
+  ],
+  "weak_threshold_pt": -3.0,
+  "growth_ranking": {
+    "metric": "yoy_diff_school_2025_2026",
+    "top": [
+      {
+        "no": "75",
+        "text": "授業の内容について、「なぜそうなるのか」と疑問を持って、自分で考えたり調べたりした",
+        "category_label": "探究性に関わる行動",
+        "yoy_diff": 17.4,
+        "v2025": 59.2,
+        "v2026": 76.6,
+        "also_national_weak": false
+      },
+      {
+        "no": "9",
+        "text": "活動、学習内容について大人（教員や地域の大人）と話し合う",
+        "category_label": "協働性に関わる学習活動",
+        "yoy_diff": 17.0,
+        "v2025": 50.3,
+        "v2026": 67.3,
+        "also_national_weak": false
+      },
+      {
+        "no": "15",
+        "text": "地域の課題の解決方法について考える",
+        "category_label": "社会性に関わる学習活動",
+        "yoy_diff": 16.9,
+        "v2025": 55.6,
+        "v2026": 72.5,
+        "also_national_weak": false
+      },
+      {
+        "no": "89",
+        "text": "日本の将来は明るいと思う",
+        "category_label": "社会性に関わるウェルビーイング",
+        "yoy_diff": 16.5,
+        "v2025": 36.1,
+        "v2026": 52.6,
+        "also_national_weak": false
+      },
+      {
+        "no": "41",
+        "text": "複雑な問題を順序立てて考えることが得意だ",
+        "category_label": "探究性に関わる自己認識",
+        "yoy_diff": 16.0,
+        "v2025": 39.6,
+        "v2026": 55.6,
+        "also_national_weak": false
+      }
+    ],
+    "bottom": [
+      {
+        "no": "55",
+        "text": "18歳選挙権を取得したら、選挙に行くと思う",
+        "category_label": "社会性に関わる自己認識",
+        "yoy_diff": -9.2,
+        "v2025": 85.2,
+        "v2026": 76.0,
+        "also_national_weak": true
+      },
+      {
+        "no": "7",
+        "text": "グループで協力しながら学習や調べものを行う",
+        "category_label": "協働性に関わる学習活動",
+        "yoy_diff": -4.6,
+        "v2025": 91.1,
+        "v2026": 86.5,
+        "also_national_weak": false
+      },
+      {
+        "no": "81",
+        "text": "今の生活全般の満足度",
+        "category_label": "主体性に関わるウェルビーイング",
+        "yoy_diff": -2.0,
+        "v2025": 72.2,
+        "v2026": 70.2,
+        "also_national_weak": true
+      },
+      {
+        "no": "83",
+        "text": "現在の日常生活に不安や心配事がない",
+        "category_label": "主体性に関わるウェルビーイング",
+        "yoy_diff": -1.3,
+        "v2025": 57.4,
+        "v2026": 56.1,
+        "also_national_weak": false
+      },
+      {
+        "no": "84",
+        "text": "学校の一員だと感じている",
+        "category_label": "協働性に関わるウェルビーイング",
+        "yoy_diff": -1.0,
+        "v2025": 89.9,
+        "v2026": 88.9,
+        "also_national_weak": false
+      }
+    ]
+  },
+  "bubble_categories": [
+    {
+      "key": "agency_activity",
+      "label": "主体性に関わる学習活動",
+      "trait": "主体性",
+      "layer": "学習活動",
+      "v2026": 64.0,
+      "diff_national_2026": 9.0,
+      "diff_prefecture_2026": 0.8,
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ]
+    },
+    {
+      "key": "collaboration_activity",
+      "label": "協働性に関わる学習活動",
+      "trait": "協働性",
+      "layer": "学習活動",
+      "v2026": 80.6,
+      "diff_national_2026": 3.6,
+      "diff_prefecture_2026": 0.6,
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ]
+    },
+    {
+      "key": "inquiry_activity",
+      "label": "探究性に関わる学習活動",
+      "trait": "探究性",
+      "layer": "学習活動",
+      "v2026": 77.4,
+      "diff_national_2026": 14.1,
+      "diff_prefecture_2026": 7.5,
+      "policy_tags": [
+        "policy2"
+      ]
+    },
+    {
+      "key": "sociality_activity",
+      "label": "社会性に関わる学習活動",
+      "trait": "社会性",
+      "layer": "学習活動",
+      "v2026": 67.1,
+      "diff_national_2026": 17.8,
+      "diff_prefecture_2026": 5.0,
+      "policy_tags": [
+        "policy10",
+        "policy9"
+      ]
+    },
+    {
+      "key": "agency_environment",
+      "label": "主体性に関わる学習環境",
+      "trait": "主体性",
+      "layer": "学習環境",
+      "v2026": 90.4,
+      "diff_national_2026": 1.2,
+      "diff_prefecture_2026": 4.4,
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ]
+    },
+    {
+      "key": "collaboration_environment",
+      "label": "協働性に関わる学習環境",
+      "trait": "協働性",
+      "layer": "学習環境",
+      "v2026": 84.0,
+      "diff_national_2026": 3.7,
+      "diff_prefecture_2026": 4.4,
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ]
+    },
+    {
+      "key": "inquiry_environment",
+      "label": "探究性に関わる学習環境",
+      "trait": "探究性",
+      "layer": "学習環境",
+      "v2026": 86.3,
+      "diff_national_2026": 2.2,
+      "diff_prefecture_2026": 3.9,
+      "policy_tags": [
+        "policy2"
+      ]
+    },
+    {
+      "key": "sociality_environment",
+      "label": "社会性に関わる学習環境",
+      "trait": "社会性",
+      "layer": "学習環境",
+      "v2026": 82.3,
+      "diff_national_2026": 12.1,
+      "diff_prefecture_2026": 5.8,
+      "policy_tags": [
+        "policy10",
+        "policy9"
+      ]
+    },
+    {
+      "key": "agency_self_perception",
+      "label": "主体性に関わる自己認識",
+      "trait": "主体性",
+      "layer": "自己認識",
+      "v2026": 73.6,
+      "diff_national_2026": 3.1,
+      "diff_prefecture_2026": 8.8,
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ]
+    },
+    {
+      "key": "collaboration_self_perception",
+      "label": "協働性に関わる自己認識",
+      "trait": "協働性",
+      "layer": "自己認識",
+      "v2026": 78.9,
+      "diff_national_2026": -0.5,
+      "diff_prefecture_2026": 5.0,
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ]
+    },
+    {
+      "key": "inquiry_self_perception",
+      "label": "探究性に関わる自己認識",
+      "trait": "探究性",
+      "layer": "自己認識",
+      "v2026": 72.9,
+      "diff_national_2026": 2.8,
+      "diff_prefecture_2026": 6.9,
+      "policy_tags": [
+        "policy2"
+      ]
+    },
+    {
+      "key": "sociality_self_perception",
+      "label": "社会性に関わる自己認識",
+      "trait": "社会性",
+      "layer": "自己認識",
+      "v2026": 60.6,
+      "diff_national_2026": -1.7,
+      "diff_prefecture_2026": 2.7,
+      "policy_tags": [
+        "policy10",
+        "policy7"
+      ]
+    },
+    {
+      "key": "agency_action",
+      "label": "主体性に関わる行動",
+      "trait": "主体性",
+      "layer": "行動",
+      "v2026": 76.3,
+      "diff_national_2026": 6.5,
+      "diff_prefecture_2026": 5.8,
+      "policy_tags": [
+        "policy3",
+        "policy2"
+      ]
+    },
+    {
+      "key": "collaboration_action",
+      "label": "協働性に関わる行動",
+      "trait": "協働性",
+      "layer": "行動",
+      "v2026": 73.7,
+      "diff_national_2026": 1.3,
+      "diff_prefecture_2026": 3.7,
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ]
+    },
+    {
+      "key": "inquiry_action",
+      "label": "探究性に関わる行動",
+      "trait": "探究性",
+      "layer": "行動",
+      "v2026": 72.8,
+      "diff_national_2026": 7.4,
+      "diff_prefecture_2026": 11.5,
+      "policy_tags": [
+        "policy2"
+      ]
+    },
+    {
+      "key": "sociality_action",
+      "label": "社会性に関わる行動",
+      "trait": "社会性",
+      "layer": "行動",
+      "v2026": 61.8,
+      "diff_national_2026": 23.1,
+      "diff_prefecture_2026": 7.8,
+      "policy_tags": [
+        "policy10",
+        "policy9"
+      ]
+    },
+    {
+      "key": "agency_wellbeing",
+      "label": "主体性に関わるウェルビーイング",
+      "trait": "主体性",
+      "layer": "ウェルビーイング",
+      "v2026": 65.1,
+      "diff_national_2026": -0.5,
+      "diff_prefecture_2026": 7.1,
+      "policy_tags": [
+        "policy3",
+        "policy7"
+      ]
+    },
+    {
+      "key": "collaboration_wellbeing",
+      "label": "協働性に関わるウェルビーイング",
+      "trait": "協働性",
+      "layer": "ウェルビーイング",
+      "v2026": 86.5,
+      "diff_national_2026": 0.8,
+      "diff_prefecture_2026": 5.8,
+      "policy_tags": [
+        "policy3",
+        "policy6"
+      ]
+    },
+    {
+      "key": "inquiry_wellbeing",
+      "label": "探究性に関わるウェルビーイング",
+      "trait": "探究性",
+      "layer": "ウェルビーイング",
+      "v2026": 74.7,
+      "diff_national_2026": -2.9,
+      "diff_prefecture_2026": 3.9,
+      "policy_tags": [
+        "policy2"
+      ]
+    },
+    {
+      "key": "sociality_wellbeing",
+      "label": "社会性に関わるウェルビーイング",
+      "trait": "社会性",
+      "layer": "ウェルビーイング",
+      "v2026": 58.2,
+      "diff_national_2026": -4.6,
+      "diff_prefecture_2026": 4.1,
+      "policy_tags": [
+        "policy10",
+        "policy7"
+      ]
+    }
+  ],
+  "data_limitations": [
+    "本データは学校全体の集計値であり、学年別・個人別の内訳は含まれていない。",
+    "「特定の資質が学年間でどうばらついているか」等の深掘りは、今回のデータからは判断できない。"
+  ]
+}

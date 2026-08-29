@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>鹿追高校ダッシュボード</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="output/dashboard_data.js"></script>
+<script src="output/kokorozashi_survey_2026_tagged.js"></script>
+</head>
+<body>
+
+<div class="app-shell">
+
+  <aside class="side-rail">
+    <a href="#top" class="rail-brand" title="鹿追高校ダッシュボード">鹿</a>
+    <nav class="rail-nav">
+      <a href="#section-overview" class="rail-icon active" data-target="section-overview" data-icon="grid" title="学校概況"></a>
+      <a href="#section-activities" class="rail-icon" data-target="section-activities" data-icon="sprout" title="教育活動"></a>
+      <a href="#section-career" class="rail-icon" data-target="section-career" data-icon="cap" title="進路"></a>
+      <a href="#section-finance" class="rail-icon" data-target="section-finance" data-icon="wallet" title="経済支援"></a>
+      <a href="#section-dorm" class="rail-icon" data-target="section-dorm" data-icon="home" title="入寮者情報"></a>
+    </nav>
+  </aside>
+
+  <div class="main-area" id="top">
+
+    <header class="topbar">
+      <div class="topbar-top">
+        <h1>鹿追高校ダッシュボード</h1>
+        <div class="updated-pill" id="generated-at">読み込み中...</div>
+      </div>
+    </header>
+
+    <main class="page-content">
+
+      <section class="summary-grid" id="summary-grid"></section>
+
+      <!-- 1. 学校概況 -->
+      <section class="category" id="section-overview">
+        <div class="category-header" style="--accent: var(--c-overview)">
+          <span class="icon" data-icon="grid"></span><h2>学校概況</h2>
+        </div>
+        <div class="card-grid">
+
+          <div class="card hero-card span-all">
+            <div class="hero-chart">
+              <h3>入学者数の推移（出身地域別）</h3>
+              <p class="card-sub">町内／十勝管内／道内／道外の内訳と総数の推移</p>
+              <div class="chart-wrap"><canvas id="chart-origin-trend"></canvas></div>
+            </div>
+            <div class="hero-gauge">
+              <h3>連携型中学校からの進学率</h3>
+              <p class="card-sub">地元中学校（鹿追・瓜幕）卒業生のうち鹿追高校への進学率</p>
+              <div class="chart-wrap short"><canvas id="chart-local-rate-trend"></canvas></div>
+              <p class="gauge-caption" id="local-rate-caption"></p>
+            </div>
+          </div>
+
+          <div class="card"><h3>学年別在籍数</h3><p class="card-sub" id="enrollment-updated"></p>
+            <div class="chart-wrap"><canvas id="chart-enrollment"></canvas></div>
+          </div>
+          <div class="card"><h3>在籍生徒の町内割合</h3><p class="card-sub" id="enrollment-origin-sub">現1〜3年生の入学時内訳</p>
+            <div class="chart-wrap"><canvas id="chart-enrollment-origin"></canvas></div>
+          </div>
+          <div class="card"><h3>入学理由（1番の理由）</h3><p class="card-sub" id="reason-updated"></p>
+            <div class="funnel-list" id="list-reason"></div>
+          </div>
+          <div class="card"><h3>鹿追町の支援で最も魅力的なもの</h3><p class="card-sub">入学理由アンケートより</p>
+            <div class="funnel-list" id="list-support"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. 教育活動 -->
+      <section class="category" id="section-activities">
+        <div class="category-header" style="--accent: var(--c-activity)">
+          <span class="icon" data-icon="sprout"></span><h2>教育活動</h2>
+        </div>
+        <div class="card-grid">
+          <div class="card span-all"><h3>探究学習の評価</h3><p class="card-sub">魅力化アンケートの探究性スコア（学校 / 全国平均）</p>
+            <div class="chart-wrap tall"><canvas id="chart-inquiry"></canvas></div>
+          </div>
+          <div class="icon-card"><span class="icon" data-icon="globe"></span><div class="body"><h4>国際交流</h4><p class="status" id="status-international"></p></div></div>
+          <div class="icon-card"><span class="icon" data-icon="link"></span><div class="body"><h4>中高一貫連携</h4><p class="status" id="status-secondary"></p></div></div>
+          <div class="icon-card"><span class="icon" data-icon="users"></span><div class="body"><h4>地域連携</h4><p class="status" id="status-community"></p></div></div>
+
+          <div class="card"><h3>実用英語技能検定 取得状況</h3><p class="card-sub" id="eiken-updated"></p>
+            <div class="big-number"><span class="num" id="eiken-rate">-</span><span class="caption" id="eiken-caption"></span></div>
+            <div class="funnel-list" id="list-eiken"></div>
+          </div>
+          <div class="card"><h3>模試・学習状況</h3>
+            <p class="pending-note" id="status-mock"></p>
+          </div>
+
+          <div class="card span-all">
+            <h3>4資質の伸び（2024→2026年度）</h3>
+            <p class="card-sub" id="kokorozashi-growth-sub">生徒アンケートの肯定的回答率・2年間の変化</p>
+            <div class="chart-wrap short"><canvas id="chart-kokorozashi-growth"></canvas></div>
+            <p class="card-sub" id="kokorozashi-growth-note"></p>
+          </div>
+
+          <div class="card span-all">
+            <h3>大綱の政策で絞り込み</h3>
+            <p class="card-sub">下のヒートマップ・要強化項目・アントレプレナーシップ指標を、対応する政策で絞り込み表示</p>
+            <div class="policy-filter" id="kokorozashi-policy-filter"></div>
+          </div>
+
+          <div class="card span-all">
+            <h3>層×資質マトリクス（全国トレンド比のヒートマップ）</h3>
+            <p class="card-sub">5層（学習活動・学習環境・自己認識・行動・ウェルビーイング）×4資質（主体性・協働性・探究性・社会性）｜ セルをクリックすると個別設問を表示</p>
+            <div class="heatmap-wrap">
+              <div class="heatmap-grid" id="kokorozashi-heatmap"></div>
+              <div class="heatmap-legend">
+                <span>全国トレンドを下回る</span>
+                <span class="heatmap-legend-bar"></span>
+                <span>上回る</span>
+              </div>
+            </div>
+            <div class="heatmap-detail" id="kokorozashi-heatmap-detail">
+              <p class="pending-note">セルを選択すると、そのカテゴリの個別設問一覧がここに表示されます。</p>
+            </div>
+          </div>
+
+          <div class="card span-all">
+            <h3>伸び幅ランキング（自校 前年度比）</h3>
+            <p class="card-sub">2025→2026年度の自校の変化（pt）｜ 全国トレンド比ベースの「要強化項目」とは別指標</p>
+            <div class="card-grid cols-2">
+              <div>
+                <p class="card-sub">伸びが大きい項目 TOP5</p>
+                <div class="rank-list" id="list-growth-top"></div>
+              </div>
+              <div>
+                <p class="card-sub">伸びが小さい・低下した項目 WORST5</p>
+                <div class="rank-list" id="list-growth-bottom"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card span-all">
+            <div class="bubble-head">
+              <div>
+                <h3>県平均・全国平均との差分</h3>
+                <p class="card-sub">横軸: 2026年度の自校値 ｜ 縦軸・バブルサイズ: 比較対象との差（pt）</p>
+              </div>
+              <div class="bubble-toggle" id="bubble-toggle" role="group" aria-label="比較対象の切り替え">
+                <button type="button" class="bubble-toggle-btn active" data-mode="national">全国平均比</button>
+                <button type="button" class="bubble-toggle-btn" data-mode="prefecture">県平均比</button>
+              </div>
+            </div>
+            <div class="chart-wrap tall"><canvas id="chart-kokorozashi-bubble"></canvas></div>
+          </div>
+
+          <div class="card span-all">
+            <h3>アントレプレナーシップ関連指標</h3>
+            <p class="card-sub">大綱「アントレプレナーシップの推進」に対応する設問群</p>
+            <p class="entre-summary" id="kokorozashi-entre-summary"></p>
+            <div class="card-grid cols-2">
+              <div>
+                <p class="card-sub">伸びている項目（前年度比）</p>
+                <div class="funnel-list" id="list-entre-strength"></div>
+              </div>
+              <div>
+                <p class="card-sub">課題の項目（全国トレンド比）</p>
+                <div class="funnel-list" id="list-entre-weakness"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card span-all">
+            <h3>要強化項目</h3>
+            <p class="card-sub" id="kokorozashi-weak-sub">全国トレンド比が特に下回る設問（大綱の対応政策・相殺材料を併記）</p>
+            <div class="weak-list" id="list-weak-points"></div>
+          </div>
+        </div>
+        <p class="data-caveat" id="kokorozashi-caveat"></p>
+      </section>
+
+      <!-- 3. 進路 -->
+      <section class="category" id="section-career">
+        <div class="category-header" style="--accent: var(--c-career)">
+          <span class="icon" data-icon="cap"></span><h2>進路</h2>
+        </div>
+        <div class="card-grid cols-2">
+          <div class="card">
+            <h3>進路先の内訳（<span id="career-year"></span>年度）</h3>
+            <div class="chart-wrap"><canvas id="chart-career-donut"></canvas></div>
+          </div>
+          <div class="card"><h3>進路先カテゴリ別人数の推移</h3><p class="card-sub">凡例クリックで系列の表示・非表示を切り替え</p>
+            <div class="chart-wrap"><canvas id="chart-career-trend"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. 経済支援 -->
+      <section class="category" id="section-finance">
+        <div class="category-header" style="--accent: var(--c-finance)">
+          <span class="icon" data-icon="wallet"></span><h2>経済支援</h2>
+        </div>
+
+        <div class="summary-grid" id="finance-stat-row"></div>
+
+        <div class="card-grid cols-2">
+          <div class="card"><h3>財源の内訳</h3><p class="card-sub" id="finance-updated"></p>
+            <div class="finance-fund-bar" id="finance-fund-bar"></div>
+          </div>
+          <div class="card"><h3>区分別内訳（R8予算）</h3><p class="card-sub">学習支援／部活動等支援／通学環境整備／経済支援／進路支援／入学者対策</p>
+            <div class="chart-wrap taller"><canvas id="chart-finance-category"></canvas></div>
+          </div>
+          <div class="card span-all"><h3>事業別内訳</h3><p class="card-sub">前年度（R7）との比較・単位：千円</p>
+            <div class="finance-project-list" id="finance-project-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. 入寮者情報 -->
+      <section class="category" id="section-dorm">
+        <div class="category-header" style="--accent: var(--c-dorm)">
+          <span class="icon" data-icon="home"></span><h2>入寮者情報</h2>
+        </div>
+
+        <div class="summary-grid dorm-stat-row" id="dorm-stat-row"></div>
+
+        <div class="card-grid cols-2">
+          <div class="card"><h3>施設別・男女別人数</h3><p class="card-sub" id="dorm-updated"></p>
+            <div class="chart-wrap"><canvas id="chart-dorm-facility"></canvas></div>
+          </div>
+          <div class="card"><h3>学年別内訳</h3>
+            <div class="chart-wrap"><canvas id="chart-dorm-grade"></canvas></div>
+          </div>
+          <div class="card span-all"><h3>施設別 在寮状況</h3><p class="card-sub">定員に対する在寮率と、学年・性別ごとの内訳を1人＝1ドットで表示</p>
+            <div class="dorm-facility-list" id="dorm-facility-list"></div>
+          </div>
+          <div class="card span-all"><h3>施設別 都道府県×学年×性別マトリックス</h3><p class="card-sub">住所データから都道府県を推計。都道府県ごとにカード化し、バーの長さで学年・性別の人数を比較</p>
+            <div class="dorm-matrix-wrap" id="dorm-matrix-wrap"></div>
+          </div>
+          <div class="card span-all"><h3>都道府県別内訳</h3><p class="card-sub">住所データから推計・男女内訳付き</p>
+            <div class="pref-list" id="pref-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">鹿追高校ダッシュボード ｜ データは学校・教育委員会保有の各種資料を集計して作成</footer>
+    </main>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="kokorozashi.js"></script>
+</body>
+</html>

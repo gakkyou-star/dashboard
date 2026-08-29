@@ -1,0 +1,1305 @@
+:root {
+  --bg: #1c1e22;
+  --side-bg: #202226;
+  --surface: #25272c;
+  --surface-alt: #303338;
+  --track: #40434a;
+  --border: rgba(255, 255, 255, 0.08);
+  --text: #f5f6f7;
+  --text-sub: #aaadb4;
+  --text-faint: #797c83;
+
+  --c-overview: #3b82c4;
+  --c-overview-bg: rgba(59, 130, 196, 0.18);
+  --c-activity: #56a05c;
+  --c-activity-bg: rgba(86, 160, 92, 0.18);
+  --c-career: #3ea8a8;
+  --c-career-bg: rgba(62, 168, 168, 0.18);
+  --c-finance: #e0a83e;
+  --c-finance-bg: rgba(224, 168, 62, 0.18);
+  --c-dorm: #cf5142;
+  --c-dorm-bg: rgba(207, 81, 66, 0.18);
+  --c-kokorozashi: #9163b6;
+  --c-kokorozashi-bg: rgba(145, 99, 182, 0.18);
+
+  --good: #56a05c;
+  --warn: #cf5142;
+  --neutral: #83868f;
+
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+
+  --font-jp: "Hiragino Sans", "Yu Gothic", "Noto Sans JP", "Segoe UI", sans-serif;
+  --font-num: "Poppins", "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-jp);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ---------------- レイアウト全体 ---------------- */
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.side-rail {
+  flex: none;
+  width: 76px;
+  background: var(--side-bg);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  gap: 28px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.rail-brand {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--c-overview), var(--c-career));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #0b0c1c;
+}
+
+.rail-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rail-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-faint);
+  border-left: 3px solid transparent;
+  transition: background 0.15s, color 0.15s;
+}
+
+.rail-icon svg {
+  width: 21px;
+  height: 21px;
+}
+
+.rail-icon:hover {
+  background: var(--surface);
+  color: var(--text);
+}
+
+.rail-icon.active {
+  background: var(--surface);
+  color: var(--text);
+  border-left: 3px solid var(--c-overview);
+}
+
+.main-area {
+  flex: 1;
+  min-width: 0;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: rgba(18, 20, 43, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 28px;
+}
+
+.topbar-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.topbar-top h1 {
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.updated-pill {
+  font-size: 0.95rem;
+  color: var(--text-sub);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 16px;
+}
+
+.page-content {
+  max-width: 1280px;
+  padding: 26px 28px 80px;
+}
+
+@media (min-width: 1440px) {
+  .page-content {
+    max-width: min(1760px, 92vw);
+  }
+}
+
+/* ---------------- サマリー(KPI)カード ---------------- */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+.summary-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.summary-card .icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--accent-bg, var(--c-overview-bg));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-card .icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.summary-card .value {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-size: 2.4rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.15;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.28), 0 0 30px rgba(255, 255, 255, 0.08), 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.summary-card .value small {
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-sub);
+  margin-left: 4px;
+}
+
+.summary-card .label {
+  font-size: 1rem;
+  color: var(--text-sub);
+}
+
+/* ---------------- セクション見出し ---------------- */
+section.category {
+  margin-bottom: 48px;
+  scroll-margin-top: 130px;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent, var(--c-overview));
+}
+
+.category-header .icon {
+  display: flex;
+  color: var(--accent, var(--c-overview));
+}
+
+.category-header .icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.category-header h2 {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* ---------------- カード共通 ---------------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card-grid.cols-2 {
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.card-grid .span-all,
+.card.span-all {
+  grid-column: 1 / -1;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px 22px 22px;
+  min-width: 0;
+}
+
+.card h3 {
+  font-size: 1.05rem;
+  margin: 0 0 4px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.card .card-sub {
+  font-size: 1rem;
+  color: var(--text-sub);
+  margin-bottom: 12px;
+}
+
+.card .chart-wrap {
+  position: relative;
+  height: 260px;
+}
+
+.card .chart-wrap.tall {
+  height: 320px;
+}
+
+.card .chart-wrap.short {
+  height: 190px;
+}
+
+.card .chart-wrap.taller {
+  height: 420px;
+}
+
+/* ---------------- ヒーローカード(入学者推移＋ゲージ) ---------------- */
+.hero-card {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 28px;
+  align-items: center;
+}
+
+.hero-gauge {
+  border-left: 1px solid var(--border);
+  padding-left: 28px;
+}
+
+.gauge-caption {
+  text-align: center;
+  color: var(--text-sub);
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.big-number {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.big-number .num {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: var(--text);
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.28), 0 0 30px rgba(255, 255, 255, 0.08), 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+
+.big-number .caption {
+  color: var(--text-sub);
+  font-size: 1rem;
+}
+
+/* ---------------- ファネル風ランキングバー ---------------- */
+.funnel-list {
+  display: flex;
+  flex-direction: column;
+  /* 項目間（次の設問との間）は、設問文とその直下のバーの間隔（margin-bottom: 6px）
+     より明確に広くし、「どのバーがどの設問文のものか」を一目で区別できるようにする。 */
+  gap: 26px;
+}
+
+.funnel-row .funnel-label {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: var(--text-sub);
+  margin-bottom: 6px;
+  /* 設問文の折り返し行数が項目ごとに異なっても、直後のバーの位置が
+     行内・左右のリスト間でできるだけ揃うよう、2行分の高さを確保する。
+     テキストは下端に揃える（align-items: flex-end）ことで、1行の設問でも
+     文字がすぐ下の自分のバーに接し、余白は上（前の項目のバー側）に
+     出るようにする。これにより「設問文とその下のバー」の近さが視覚的に
+     はっきりし、次の設問文との間隔（行間のgap）と区別できる。 */
+  min-height: 2.6em;
+}
+
+.funnel-row .funnel-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.funnel-row .funnel-track {
+  position: relative;
+  background: var(--track);
+  border-radius: 999px;
+  height: 22px;
+  overflow: hidden;
+  flex: 1;
+  min-width: 0;
+}
+
+.funnel-row .funnel-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--bar-color, var(--c-overview));
+  min-width: 6%;
+}
+
+.funnel-row .funnel-value {
+  flex: none;
+  min-width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2px;
+  text-align: right;
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+  color: var(--text);
+  /* 全国トレンド比つき（2行）の項目と、値のみ（1行）の項目が同じリスト内・
+     左右のリスト間に混在しても、バーの高さ＝行の高さが揃うよう固定する。
+     line-heightを明示しているのは、本文用の大きな行間（継承値）のままだと
+     実際の2行分の高さがこのmin-heightを超えてしまうため。 */
+  min-height: 2.6em;
+}
+
+.funnel-row .funnel-value-sub {
+  font-family: var(--font-jp);
+  font-variant-numeric: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+
+/* ---------------- アイコン付きカード（教育活動） ---------------- */
+.icon-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.icon-card .icon {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--surface-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-sub);
+}
+
+.icon-card .icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-card .body h4 {
+  margin: 0 0 6px;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.icon-card .body .status {
+  font-size: 1rem;
+  color: var(--text-faint);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--surface-alt);
+  padding: 3px 12px;
+  border-radius: 999px;
+}
+
+.pending-note {
+  color: var(--text-sub);
+  font-size: 1rem;
+}
+
+/* ---------------- 都道府県リスト ---------------- */
+.pref-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 340px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.pref-row {
+  display: grid;
+  grid-template-columns: 116px 1fr 130px;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+  color: var(--text-sub);
+}
+
+.pref-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pref-rank {
+  font-size: 0.9rem;
+}
+
+.pref-row .bar-track {
+  display: flex;
+  background: var(--track);
+  border-radius: 999px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.pref-row .bar-fill {
+  height: 100%;
+}
+
+.pref-row .bar-fill.male {
+  background: var(--c-overview);
+}
+
+.pref-row .bar-fill.female {
+  background: var(--c-dorm);
+}
+
+.pref-row .count {
+  text-align: right;
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* ---------------- 入寮者情報: 統計行・定員ゲージ・ピクトグラム・マトリックス ---------------- */
+.dorm-stat-row {
+  margin-bottom: 24px;
+}
+
+.dorm-facility-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.dorm-facility-card {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.dorm-facility-card:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.dorm-facility-top {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.dorm-gauge-wrap {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  flex: none;
+}
+
+.dorm-gauge-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.dorm-gauge-value {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: var(--text);
+  line-height: 1;
+}
+
+.dorm-gauge-unit {
+  font-family: var(--font-num);
+  font-size: 0.85rem;
+  color: var(--text-sub);
+}
+
+.dorm-facility-info {
+  flex: 1;
+  min-width: 220px;
+}
+
+.dorm-facility-info h4 {
+  margin: 0 0 4px;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.dorm-facility-occ {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  color: var(--text-sub);
+}
+
+.dorm-grade-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dorm-grade-bar-row {
+  display: grid;
+  grid-template-columns: 52px 1fr 28px;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: var(--text-sub);
+}
+
+.dorm-grade-bar-track {
+  display: flex;
+  background: var(--track);
+  border-radius: 999px;
+  height: 9px;
+  overflow: hidden;
+}
+
+.dorm-grade-bar-fill {
+  height: 100%;
+}
+
+.dorm-grade-bar-fill.male {
+  background: var(--c-overview);
+}
+
+.dorm-grade-bar-fill.female {
+  background: var(--c-dorm);
+}
+
+.dorm-grade-bar-value {
+  text-align: right;
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.dorm-pictogram {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dorm-pictogram-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dorm-pictogram-group-label {
+  flex: none;
+  width: 44px;
+  font-size: 0.85rem;
+  color: var(--text-faint);
+}
+
+.dorm-pictogram-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.dorm-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dorm-dot.male {
+  background: var(--c-overview);
+}
+
+.dorm-dot.female {
+  background: var(--c-dorm);
+}
+
+.dorm-matrix-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dorm-matrix-block {
+  overflow-x: auto;
+}
+
+.dorm-matrix-block-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.dorm-matrix-block-head h4 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.dorm-matrix-block-total {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.9rem;
+  color: var(--text-faint);
+}
+
+.dorm-matrix-pref-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 14px;
+}
+
+.dorm-matrix-pref-card {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+}
+
+.dorm-matrix-pref-card.top {
+  border-left: 3px solid var(--c-dorm);
+}
+
+.dorm-matrix-pref-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.dorm-matrix-pref-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.dorm-matrix-pref-total {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+  color: var(--text-sub);
+}
+
+.dorm-matrix-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: var(--text-faint);
+}
+
+/* ---------------- 経済支援 ---------------- */
+.finance-fund-track {
+  display: flex;
+  height: 22px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--track);
+}
+
+.finance-fund-fill {
+  height: 100%;
+}
+
+.finance-fund-fill.grant {
+  background: var(--c-finance);
+}
+
+.finance-fund-fill.general {
+  background: var(--c-overview);
+}
+
+.finance-fund-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.finance-fund-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: var(--text-sub);
+}
+
+.finance-fund-dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.finance-fund-dot.grant {
+  background: var(--c-finance);
+}
+
+.finance-fund-dot.general {
+  background: var(--c-overview);
+}
+
+.finance-project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.finance-category-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.finance-category-head h4 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.finance-category-diff {
+  font-size: 0.95rem;
+  font-family: var(--font-num);
+}
+
+.finance-category-diff.positive {
+  color: var(--good);
+}
+
+.finance-category-diff.negative {
+  color: var(--warn);
+}
+
+.finance-project-row {
+  display: grid;
+  grid-template-columns: minmax(140px, 1fr) 2fr 100px 90px;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 0.95rem;
+  color: var(--text-sub);
+}
+
+.finance-project-label {
+  color: var(--text);
+}
+
+.finance-project-track {
+  background: var(--track);
+  border-radius: 999px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.finance-project-fill {
+  height: 100%;
+  background: var(--c-finance);
+  border-radius: 999px;
+}
+
+.finance-project-value {
+  text-align: right;
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.finance-project-diff {
+  text-align: right;
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-faint);
+}
+
+.finance-project-diff.positive {
+  color: var(--good);
+}
+
+.finance-project-diff.negative {
+  color: var(--warn);
+}
+
+@media (max-width: 640px) {
+  .finance-project-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}
+
+/* ---------------- 探究学習アンケート ---------------- */
+.entre-summary {
+  background: var(--surface-alt);
+  border-left: 3px solid var(--c-kokorozashi);
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+/* ---- 層×資質マトリクス（ヒートマップ） ---- */
+.heatmap-wrap {
+  overflow-x: auto;
+}
+
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: 150px repeat(4, minmax(140px, 1fr));
+  gap: 4px;
+  min-width: 640px;
+}
+
+.heatmap-cell {
+  border-radius: 8px;
+  padding: 10px 12px;
+  min-height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.heatmap-cell.head {
+  background: transparent;
+  color: var(--text-sub);
+  font-weight: 700;
+  font-size: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 32px;
+}
+
+.heatmap-cell.head.row-head {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.heatmap-cell.data {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  transition: outline 0.1s;
+}
+
+.heatmap-cell.data:hover,
+.heatmap-cell.data:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: -2px;
+}
+
+.heatmap-cell.data.selected {
+  outline: 2px solid var(--text);
+  outline-offset: -2px;
+}
+
+.heatmap-cell.data.dimmed {
+  opacity: 0.22;
+}
+
+/* ---- 政策タグ絞り込み ---- */
+.policy-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.policy-filter-btn {
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text-sub);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: var(--font-jp);
+}
+
+.policy-filter-btn:hover {
+  border-color: var(--c-kokorozashi);
+  color: var(--text);
+}
+
+.policy-filter-btn.active {
+  background: var(--c-kokorozashi);
+  border-color: var(--c-kokorozashi);
+  color: #fff;
+}
+
+.heatmap-cell .heatmap-value {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.heatmap-cell .heatmap-tags {
+  font-size: 1rem;
+  opacity: 0.85;
+  line-height: 1.3;
+}
+
+.heatmap-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: var(--text-sub);
+}
+
+.heatmap-legend-bar {
+  width: 160px;
+  height: 10px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #cf5142, #e0a83e, #40434a, #3ea8a8, #3b82c4);
+}
+
+.heatmap-detail {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.heatmap-detail table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.heatmap-detail th,
+.heatmap-detail td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-sub);
+}
+
+.heatmap-detail th {
+  color: var(--text-faint);
+  font-weight: 600;
+}
+
+.heatmap-detail td:first-child {
+  color: var(--text);
+}
+
+/* ---- 伸び幅ランキング ---- */
+.rank-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rank-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.rank-item .rank-order {
+  flex: none;
+  width: 22px;
+  font-family: var(--font-num);
+  font-weight: 700;
+  color: var(--text-faint);
+}
+
+.rank-item .rank-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.rank-item .rank-text {
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.rank-item .rank-note {
+  color: var(--warn);
+  font-size: 1rem;
+  margin-top: 2px;
+}
+
+.rank-item .rank-value {
+  flex: none;
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.rank-item .rank-value.positive { color: var(--good); }
+.rank-item .rank-value.negative { color: var(--warn); }
+
+/* ---- バブルチャート トグル ---- */
+.bubble-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.bubble-toggle {
+  display: flex;
+  gap: 6px;
+  background: var(--surface-alt);
+  border-radius: 999px;
+  padding: 4px;
+}
+
+.bubble-toggle-btn {
+  border: none;
+  background: transparent;
+  color: var(--text-sub);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: var(--font-jp);
+}
+
+.bubble-toggle-btn.active {
+  background: var(--c-kokorozashi);
+  color: #fff;
+}
+
+/* ---- データの限界に関する注記 ---- */
+.data-caveat {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--text-faint);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.weak-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.weak-card {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--neutral);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+}
+
+.weak-card.priority {
+  border-left: 3px solid var(--warn);
+  background: rgba(207, 81, 66, 0.08);
+}
+
+.weak-card .weak-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+  /* カテゴリ名の長さで折り返し行数が変わっても、直後の設問文（weak-text）の
+     開始位置がカード間で揃うよう、2行分の高さを常に確保する。 */
+  min-height: 2.6em;
+}
+
+.weak-card .weak-no {
+  font-size: 1rem;
+  line-height: 1.3;
+  color: var(--text-faint);
+}
+
+.weak-card .weak-trend {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--warn);
+}
+
+.weak-card .weak-text {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.weak-card .weak-value {
+  font-size: 1rem;
+  color: var(--text-sub);
+}
+
+.policy-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.policy-tag {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-sub);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 3px 10px;
+}
+
+.weak-card .weak-related {
+  margin: 8px 0 0;
+  font-size: 1rem;
+  color: var(--good);
+}
+
+footer.site-footer {
+  margin-top: 44px;
+  text-align: center;
+  color: var(--text-faint);
+  font-size: 1rem;
+}
+
+/* ---------------- レスポンシブ ---------------- */
+@media (max-width: 900px) {
+  .hero-card {
+    grid-template-columns: 1fr;
+  }
+  .hero-gauge {
+    border-left: none;
+    border-top: 1px solid var(--border);
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .side-rail {
+    display: none;
+  }
+  .topbar {
+    padding: 16px 16px 0;
+  }
+  .page-content {
+    padding: 18px 16px 60px;
+  }
+  .topbar-top h1 {
+    font-size: 1.2rem;
+  }
+  .card .chart-wrap {
+    height: 220px;
+  }
+}
