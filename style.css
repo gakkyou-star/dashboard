@@ -319,7 +319,10 @@ section.category {
 /* ---------------- ヒーローカード(入学者推移＋ゲージ) ---------------- */
 .hero-card {
   display: grid;
-  grid-template-columns: 1.6fr 1fr;
+  /* fr単位の暗黙の最小幅（auto）のままだと、中の折れ線グラフ等の
+     min-content幅にグリッド全体が押し広げられ、タブレット幅で
+     カードごと横にはみ出す。minmax(0, ...)で明示的に縮小を許可する。 */
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
   gap: 28px;
   align-items: center;
 }
