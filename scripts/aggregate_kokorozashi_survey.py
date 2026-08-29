@@ -312,6 +312,45 @@ def build_tagged(survey, source_path):
         "weaknesses": [x for x in (entre_item(no, "weakness") for no in ENTREPRENEURSHIP_NOS["weakness"]) if x],
     }
 
+    # --- 多様性・地域みらい留学の影響 ----------------------------------------
+    # 追記指示書「多様性と地域みらい留学の影響分析」に基づく特集セクション。
+    # 「違いを認め合う文化」（No.22/23）と「地域とのつながり」（No.69/70）の
+    # 2024→2026年度の推移を提示する。政策タグは指示書の指定に従い、この
+    # セクション専用として固定で付与する（categories側の同一設問のタグとは独立）。
+    DIVERSITY_POLICY_TAGS = ["policy6", "policy10", "policy5"]
+
+    def diversity_item(no):
+        q = unique_questions.get(no)
+        if not q:
+            return None
+        return {
+            "no": no,
+            "text": q["text"],
+            "school": q["school"],
+            "national_trend_diff": q["national_trend_diff"],
+            "policy_tags": DIVERSITY_POLICY_TAGS,
+        }
+
+    collaboration_ref = next((g for g in trait_layer_growth if g["trait"] == "協働性"), None)
+
+    diversity_impact = {
+        "policy_tags": DIVERSITY_POLICY_TAGS,
+        "culture": {
+            "title": "「違いを認め合う文化」の変化",
+            "note": "全国トレンドとほぼ同水準の伸びだが、自校では2年間で絶対値が大きく上昇している。",
+            "questions": [x for x in (diversity_item(no) for no in ["22", "23"]) if x],
+        },
+        "community": {
+            "title": "「地域とのつながり」の急拡大",
+            "note": "地域みらい留学の趣旨（地域協働・地域に根ざした学び）と整合的な、全国トレンドを大きく上回る伸びである。",
+            "questions": [x for x in (diversity_item(no) for no in ["69", "70"]) if x],
+        },
+        "collaboration_ref": collaboration_ref,
+    }
+    # 次年度以降、アンケートに「地域みらい留学生／地元生」の属性区分が追加された
+    # 場合は、本セクションを属性別集計に拡張してより踏み込んだ分析を行うこと。
+    # 現状は属性区分がないため、相関の提示にとどめている（data_limitationsに明記）。
+
     # --- 弱点・要強化項目の自動抽出 ------------------------------------------
     weak_candidates = [
         q for q in unique_questions.values()
@@ -410,6 +449,7 @@ def build_tagged(survey, source_path):
         "categories": categories,
         "trait_layer_growth": trait_layer_growth,
         "entrepreneurship": entrepreneurship,
+        "diversity_impact": diversity_impact,
         "weak_points": weak_points,
         "weak_threshold_pt": WEAK_THRESHOLD_PT,
         "growth_ranking": growth_ranking,
@@ -417,6 +457,10 @@ def build_tagged(survey, source_path):
         "data_limitations": [
             "本データは学校全体の集計値であり、学年別・個人別の内訳は含まれていない。",
             "「特定の資質が学年間でどうばらついているか」等の深掘りは、今回のデータからは判断できない。",
+            "現行のアンケートには「地域みらい留学生か地元生か」という生徒の属性区分が含まれていないため、"
+            "「多様性・地域みらい留学の影響」セクションで示す伸びが同制度によるものか、探究学習の充実など"
+            "他の施策と重なった結果かを、このデータだけで完全に切り分けることはできない。同セクションの内容は"
+            "相関関係の提示にとどまり、因果関係を断定するものではない。",
         ],
     }
 

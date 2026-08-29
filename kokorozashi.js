@@ -138,6 +138,105 @@ function renderEntrepreneurship(data) {
   );
 }
 
+/* ---------------- 多様性・地域みらい留学の影響 ----------------
+   「違いを認め合う文化」（No.22/23）と「地域とのつながり」（No.69/70）の
+   2024→2026年度推移を折れ線グラフ＋独自凡例で表示する。折れ線グラフ本体は
+   1回だけ描画し（データは年度更新まで変わらないため）、政策フィルタの
+   切り替えではカード全体の明暗（policy-scope-dimmed）のみ更新する。 */
+const DIVERSITY_LINE_COLORS = {
+  culture: [COLOR.overview, COLOR.career],
+  community: [COLOR.good, "#3d7a42"],
+};
+
+function renderDiversityLegend(containerId, questions, colors, { strength = false } = {}) {
+  const container = document.getElementById(containerId);
+  if (!container || container.dataset.rendered) return;
+  questions.forEach((q, i) => {
+    const row = el("div", `diversity-legend-row${strength ? " strength" : ""}`);
+    const dot = el("span", "diversity-legend-dot");
+    dot.style.background = colors[i % colors.length];
+    row.appendChild(dot);
+    row.appendChild(el("span", "diversity-legend-text", `No.${q.no} ${q.text}`));
+    const selfDiff = Math.round((q.school["2026"] - q.school["2024"]) * 10) / 10;
+    const diffText = strength
+      ? `自校${selfDiff >= 0 ? "+" : ""}${selfDiff}pt（全国トレンド比${q.national_trend_diff >= 0 ? "+" : ""}${q.national_trend_diff}pt）`
+      : `自校${selfDiff >= 0 ? "+" : ""}${selfDiff}pt`;
+    row.appendChild(el("span", "diversity-legend-diff", diffText));
+    container.appendChild(row);
+  });
+  container.dataset.rendered = "1";
+}
+
+function renderDiversityLineChart(canvasId, questions, colors, fill) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas || !questions.length || Chart.getChart(canvas)) return;
+  new Chart(canvas, {
+    type: "line",
+    data: {
+      labels: ["2024", "2025", "2026"],
+      datasets: questions.map((q, i) => ({
+        label: `No.${q.no}`,
+        data: ["2024", "2025", "2026"].map((y) => q.school[y]),
+        borderColor: colors[i % colors.length],
+        backgroundColor: fill ? `${colors[i % colors.length]}26` : colors[i % colors.length],
+        borderWidth: 2,
+        tension: 0.3,
+        pointRadius: 3,
+        pointHoverRadius: 5,
+        fill: fill ? (i === 0 ? "origin" : false) : false,
+      })),
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      scales: {
+        x: { grid: { display: false }, ticks: { color: COLOR.textSub } },
+        y: { beginAtZero: true, max: 100, grid: { color: COLOR.gridLine }, ticks: { color: COLOR.textSub, callback: (v) => `${v}%` } },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: darkTooltip({ callbacks: { label: (ctx) => `${ctx.dataset.label}: ${ctx.raw}%` } }),
+      },
+    },
+  });
+}
+
+function renderDiversityImpact(data) {
+  const d = data.diversity_impact;
+  if (!d) return;
+
+  const card = document.getElementById("card-diversity-impact");
+  if (card) card.classList.toggle("policy-scope-dimmed", !matchesPolicyFilter(d.policy_tags));
+
+  const tagsEl = document.getElementById("diversity-tags");
+  if (tagsEl && !tagsEl.dataset.rendered) {
+    sortedPolicyTags(d.policy_tags).forEach((t) => {
+      tagsEl.appendChild(el("span", "policy-tag", POLICY_TAG_LABELS[t] || t));
+    });
+    tagsEl.dataset.rendered = "1";
+  }
+
+  renderDiversityLegend("diversity-culture-legend", d.culture.questions, DIVERSITY_LINE_COLORS.culture);
+  renderDiversityLineChart("chart-diversity-culture", d.culture.questions, DIVERSITY_LINE_COLORS.culture, false);
+  document.getElementById("diversity-culture-note").textContent = d.culture.note;
+
+  renderDiversityLegend("diversity-community-legend", d.community.questions, DIVERSITY_LINE_COLORS.community, { strength: true });
+  renderDiversityLineChart("chart-diversity-community", d.community.questions, DIVERSITY_LINE_COLORS.community, true);
+  document.getElementById("diversity-community-note").textContent = d.community.note;
+
+  const ref = document.getElementById("diversity-ref");
+  if (ref && d.collaboration_ref && !ref.dataset.rendered) {
+    const g = d.collaboration_ref;
+    ref.appendChild(document.createTextNode(
+      `参考指標: ${g.trait}の5層平均は2024→2026年度で${g.avg_growth_2024_2026 >= 0 ? "+" : ""}${g.avg_growth_2024_2026}pt伸びており（`
+    ));
+    const link = el("a", null, "4資質の伸びを見る");
+    link.href = "#card-kokorozashi-growth";
+    ref.appendChild(link);
+    ref.appendChild(document.createTextNode("）、多様な背景の生徒同士の関わり合いの増加と整合的である。"));
+    ref.dataset.rendered = "1";
+  }
+}
+
 function renderWeakPoints(data) {
   const points = data.weak_points.filter((w) => matchesPolicyFilter(w.policy_tags));
   document.getElementById("kokorozashi-weak-sub").textContent =
@@ -307,6 +406,7 @@ function setPolicyFilter(key) {
   applyHeatmapFilter();
   renderWeakPoints(kokorozashiData);
   renderEntrepreneurship(kokorozashiData);
+  renderDiversityImpact(kokorozashiData);
 }
 
 function renderPolicyFilter(data) {
@@ -456,6 +556,7 @@ function mainKokorozashi() {
   renderGrowthRanking(data);
   renderBubbleChart(data);
   renderEntrepreneurship(data);
+  renderDiversityImpact(data);
   renderWeakPoints(data);
   renderCaveat(data);
 }
