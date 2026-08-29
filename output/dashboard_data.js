@@ -1,0 +1,2175 @@
+window.DASHBOARD_DATA = {
+  "generated_at": "2026-08-29 10:24",
+  "school_overview": {
+    "enrollment": {
+      "ready": true,
+      "total": 155,
+      "by_grade": [
+        {
+          "label": "1年",
+          "count": 55
+        },
+        {
+          "label": "2年",
+          "count": 49
+        },
+        {
+          "label": "3年",
+          "count": 51
+        }
+      ],
+      "source_updated": "2023-09-14"
+    },
+    "admission_trend": {
+      "ready": true,
+      "series": [
+        {
+          "year": 1986,
+          "count": 83,
+          "local_rate": 66.7
+        },
+        {
+          "year": 1987,
+          "count": 80,
+          "local_rate": 66.3
+        },
+        {
+          "year": 1988,
+          "count": 79,
+          "local_rate": 61.1
+        },
+        {
+          "year": 1989,
+          "count": 55,
+          "local_rate": 48.0
+        },
+        {
+          "year": 1990,
+          "count": 51,
+          "local_rate": 49.5
+        },
+        {
+          "year": 1991,
+          "count": 55,
+          "local_rate": 59.3
+        },
+        {
+          "year": 1992,
+          "count": 61,
+          "local_rate": 62.8
+        },
+        {
+          "year": 1993,
+          "count": 47,
+          "local_rate": 46.2
+        },
+        {
+          "year": 1994,
+          "count": 59,
+          "local_rate": 61.7
+        },
+        {
+          "year": 1995,
+          "count": 45,
+          "local_rate": 46.3
+        },
+        {
+          "year": 1996,
+          "count": 72,
+          "local_rate": 54.4
+        },
+        {
+          "year": 1997,
+          "count": 69,
+          "local_rate": 52.2
+        },
+        {
+          "year": 1998,
+          "count": 65,
+          "local_rate": 57.9
+        },
+        {
+          "year": 1999,
+          "count": 65,
+          "local_rate": 54.9
+        },
+        {
+          "year": 2000,
+          "count": 59,
+          "local_rate": 56.2
+        },
+        {
+          "year": 2001,
+          "count": 71,
+          "local_rate": 51.2
+        },
+        {
+          "year": 2002,
+          "count": 79,
+          "local_rate": 52.7
+        },
+        {
+          "year": 2003,
+          "count": 60,
+          "local_rate": 55.2
+        },
+        {
+          "year": 2004,
+          "count": 68,
+          "local_rate": 66.7
+        },
+        {
+          "year": 2005,
+          "count": 75,
+          "local_rate": 73.5
+        },
+        {
+          "year": 2006,
+          "count": 60,
+          "local_rate": 59.7
+        },
+        {
+          "year": 2007,
+          "count": 68,
+          "local_rate": 70.3
+        },
+        {
+          "year": 2008,
+          "count": 77,
+          "local_rate": 77.2
+        },
+        {
+          "year": 2009,
+          "count": 67,
+          "local_rate": 79.2
+        },
+        {
+          "year": 2010,
+          "count": 64,
+          "local_rate": 65.3
+        },
+        {
+          "year": 2011,
+          "count": 58,
+          "local_rate": 72.4
+        },
+        {
+          "year": 2012,
+          "count": 66,
+          "local_rate": 70.8
+        },
+        {
+          "year": 2013,
+          "count": 72,
+          "local_rate": 65.2
+        },
+        {
+          "year": 2014,
+          "count": 78,
+          "local_rate": 78.8
+        },
+        {
+          "year": 2015,
+          "count": 74,
+          "local_rate": 66.7
+        },
+        {
+          "year": 2016,
+          "count": 79,
+          "local_rate": 77.6
+        },
+        {
+          "year": 2017,
+          "count": 63,
+          "local_rate": 70.9
+        },
+        {
+          "year": 2018,
+          "count": 58,
+          "local_rate": 64.2
+        },
+        {
+          "year": 2019,
+          "count": 62,
+          "local_rate": 57.8
+        },
+        {
+          "year": 2020,
+          "count": 28,
+          "local_rate": 39.6
+        },
+        {
+          "year": 2021,
+          "count": 56,
+          "local_rate": 44.4
+        },
+        {
+          "year": 2022,
+          "count": 49,
+          "local_rate": 54.8
+        },
+        {
+          "year": 2023,
+          "count": 52,
+          "local_rate": 57.7
+        },
+        {
+          "year": 2024,
+          "count": 75,
+          "local_rate": 47.1
+        },
+        {
+          "year": 2025,
+          "count": 79,
+          "local_rate": 55.8
+        },
+        {
+          "year": 2026,
+          "count": 45,
+          "local_rate": 36.4
+        }
+      ]
+    },
+    "origin_region": {
+      "ready": true,
+      "years": [
+        {
+          "year": 1986,
+          "total": 83,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 64
+            },
+            {
+              "label": "管内",
+              "count": 19
+            }
+          ]
+        },
+        {
+          "year": 1987,
+          "total": 80,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 59
+            },
+            {
+              "label": "管内",
+              "count": 21
+            }
+          ]
+        },
+        {
+          "year": 1988,
+          "total": 79,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 66
+            },
+            {
+              "label": "管内",
+              "count": 13
+            }
+          ]
+        },
+        {
+          "year": 1989,
+          "total": 55,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 48
+            },
+            {
+              "label": "管内",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "year": 1990,
+          "total": 51,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 49
+            },
+            {
+              "label": "管内",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "year": 1991,
+          "total": 55,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 51
+            },
+            {
+              "label": "管内",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "year": 1992,
+          "total": 61,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 59
+            },
+            {
+              "label": "管内",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "year": 1993,
+          "total": 47,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 43
+            },
+            {
+              "label": "管内",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "year": 1994,
+          "total": 59,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 58
+            },
+            {
+              "label": "管内",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "year": 1995,
+          "total": 45,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 38
+            },
+            {
+              "label": "管内",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "year": 1996,
+          "total": 72,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 43
+            },
+            {
+              "label": "管内",
+              "count": 29
+            }
+          ]
+        },
+        {
+          "year": 1997,
+          "total": 69,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 48
+            },
+            {
+              "label": "管内",
+              "count": 21
+            }
+          ]
+        },
+        {
+          "year": 1998,
+          "total": 65,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 44
+            },
+            {
+              "label": "管内",
+              "count": 21
+            }
+          ]
+        },
+        {
+          "year": 1999,
+          "total": 65,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 39
+            },
+            {
+              "label": "管内",
+              "count": 26
+            }
+          ]
+        },
+        {
+          "year": 2000,
+          "total": 59,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 50
+            },
+            {
+              "label": "管内",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "year": 2001,
+          "total": 71,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 44
+            },
+            {
+              "label": "管内",
+              "count": 27
+            }
+          ]
+        },
+        {
+          "year": 2002,
+          "total": 79,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 48
+            },
+            {
+              "label": "管内",
+              "count": 31
+            }
+          ]
+        },
+        {
+          "year": 2003,
+          "total": 60,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 48
+            },
+            {
+              "label": "管内",
+              "count": 12
+            }
+          ]
+        },
+        {
+          "year": 2004,
+          "total": 68,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 48
+            },
+            {
+              "label": "管内",
+              "count": 20
+            }
+          ]
+        },
+        {
+          "year": 2005,
+          "total": 75,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 61
+            },
+            {
+              "label": "管内",
+              "count": 14
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "total": 60,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 37
+            },
+            {
+              "label": "管内",
+              "count": 23
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "total": 68,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 45
+            },
+            {
+              "label": "管内",
+              "count": 23
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "total": 77,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 44
+            },
+            {
+              "label": "管内",
+              "count": 33
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "total": 67,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 42
+            },
+            {
+              "label": "管内",
+              "count": 25
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "total": 64,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 32
+            },
+            {
+              "label": "管内",
+              "count": 32
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "total": 58,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 42
+            },
+            {
+              "label": "管内",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "total": 66,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 34
+            },
+            {
+              "label": "管内",
+              "count": 32
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "total": 72,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 30
+            },
+            {
+              "label": "管内",
+              "count": 42
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "total": 78,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 41
+            },
+            {
+              "label": "管内",
+              "count": 37
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "total": 74,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 42
+            },
+            {
+              "label": "管内",
+              "count": 32
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "total": 79,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 52
+            },
+            {
+              "label": "管内",
+              "count": 27
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "total": 63,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 39
+            },
+            {
+              "label": "管内",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "total": 58,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 34
+            },
+            {
+              "label": "管内",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "total": 62,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 37
+            },
+            {
+              "label": "管内",
+              "count": 25
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "total": 28,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 21
+            },
+            {
+              "label": "管内",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "total": 56,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 28
+            },
+            {
+              "label": "管内",
+              "count": 28
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "total": 49,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 34
+            },
+            {
+              "label": "管内",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "total": 52,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 30
+            },
+            {
+              "label": "管内",
+              "count": 19
+            },
+            {
+              "label": "道外",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "total": 75,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 24
+            },
+            {
+              "label": "管内",
+              "count": 35
+            },
+            {
+              "label": "道内",
+              "count": 7
+            },
+            {
+              "label": "道外",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "total": 79,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 29
+            },
+            {
+              "label": "管内",
+              "count": 30
+            },
+            {
+              "label": "道内",
+              "count": 10
+            },
+            {
+              "label": "道外",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "year": 2026,
+          "total": 45,
+          "breakdown": [
+            {
+              "label": "町内",
+              "count": 20
+            },
+            {
+              "label": "管内",
+              "count": 18
+            },
+            {
+              "label": "道内",
+              "count": 2
+            },
+            {
+              "label": "道外",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    "current_enrollment_origin": {
+      "ready": true,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "breakdown": [
+        {
+          "label": "町内",
+          "count": 73
+        },
+        {
+          "label": "管内",
+          "count": 83
+        },
+        {
+          "label": "道内",
+          "count": 19
+        },
+        {
+          "label": "道外",
+          "count": 24
+        }
+      ]
+    },
+    "admission_reason": {
+      "ready": true,
+      "respondents": 45,
+      "top_reason": [
+        {
+          "label": "カナダ短期留学に全員行けるから",
+          "count": 24
+        },
+        {
+          "label": "近いから",
+          "count": 5
+        },
+        {
+          "label": "英語教育に力を入れているから",
+          "count": 5
+        },
+        {
+          "label": "（カナダ短期留学以外の）短期留学プログラムがあるから",
+          "count": 4
+        },
+        {
+          "label": "入りたい部活動があるから",
+          "count": 2
+        },
+        {
+          "label": "魅力的な学校行事があるから",
+          "count": 2
+        },
+        {
+          "label": "探究学習が魅力的だから（鹿追創生プロジェクト、イノベーション学、サステナビリティ学など）",
+          "count": 1
+        },
+        {
+          "label": "カナダ留学などさまざまなアクティビティがあるから",
+          "count": 1
+        },
+        {
+          "label": "北海道",
+          "count": 1
+        }
+      ],
+      "attractive_support": [
+        {
+          "label": "カナダ短期留学の助成（費用の９割を鹿追町が負担）",
+          "count": 35
+        },
+        {
+          "label": "大学進学時に最大月10万円の無利子貸付",
+          "count": 3
+        },
+        {
+          "label": "ペンギンドミトリー・ペンギンハウスへの入居",
+          "count": 3
+        },
+        {
+          "label": "通学費助成金・町バス（公共交通機関：全額、自家用車送迎：４千円～１万円）",
+          "count": 2
+        },
+        {
+          "label": "入学準備金（町内中卒10万円、その他５万円）",
+          "count": 1
+        },
+        {
+          "label": "実用英語検定費用の助成（年１回）",
+          "count": 1
+        }
+      ],
+      "source_updated": "2026-08-25"
+    }
+  },
+  "education_activities": {
+    "inquiry_learning": {
+      "ready": true,
+      "note": "探究性に関わる学習活動・学習環境・自己認識・行動・ウェルビーイングの各評価スコア（生徒アンケート）",
+      "scores": [
+        {
+          "label": "探究性に関わる学習活動",
+          "school_latest": 77.4,
+          "school_prev": 70.2,
+          "national_latest": 63.3
+        },
+        {
+          "label": "探究性に関わる学習環境",
+          "school_latest": 86.3,
+          "school_prev": 79.3,
+          "national_latest": 84.1
+        },
+        {
+          "label": "探究性に関わる自己認識",
+          "school_latest": 72.9,
+          "school_prev": 62.7,
+          "national_latest": 70.1
+        },
+        {
+          "label": "探究性に関わる行動",
+          "school_latest": 72.8,
+          "school_prev": 56.2,
+          "national_latest": 65.4
+        },
+        {
+          "label": "探究性に関わるウェルビーイング",
+          "school_latest": 74.7,
+          "school_prev": 70.8,
+          "national_latest": 77.6
+        }
+      ]
+    },
+    "international_exchange": {
+      "ready": false,
+      "note": "件数・成果データは今後追加予定"
+    },
+    "secondary_collaboration": {
+      "ready": false,
+      "note": "件数・成果データは今後追加予定"
+    },
+    "community_collaboration": {
+      "ready": false,
+      "note": "件数・成果データは今後追加予定"
+    }
+  },
+  "career_and_learning": {
+    "career_outcome": {
+      "ready": true,
+      "latest_year": 2025,
+      "decision_rate": 100.0,
+      "total": 47,
+      "breakdown": [
+        {
+          "label": "専門学校",
+          "count": 21
+        },
+        {
+          "label": "就職",
+          "count": 9
+        },
+        {
+          "label": "私立大",
+          "count": 9
+        },
+        {
+          "label": "国公立",
+          "count": 4
+        },
+        {
+          "label": "その他",
+          "count": 2
+        },
+        {
+          "label": "短大",
+          "count": 2
+        }
+      ],
+      "category_trend": {
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "categories": [
+          {
+            "label": "専門学校",
+            "data": [
+              15,
+              17,
+              14,
+              10,
+              13,
+              15,
+              14,
+              12,
+              13,
+              21,
+              6,
+              15,
+              12,
+              21
+            ]
+          },
+          {
+            "label": "就職",
+            "data": [
+              18,
+              10,
+              15,
+              32,
+              24,
+              14,
+              19,
+              14,
+              13,
+              11,
+              4,
+              8,
+              11,
+              9
+            ]
+          },
+          {
+            "label": "私立大",
+            "data": [
+              6,
+              13,
+              13,
+              8,
+              16,
+              19,
+              9,
+              15,
+              13,
+              11,
+              5,
+              9,
+              14,
+              9
+            ]
+          },
+          {
+            "label": "国公立",
+            "data": [
+              12,
+              6,
+              6,
+              5,
+              7,
+              8,
+              10,
+              2,
+              3,
+              5,
+              4,
+              8,
+              3,
+              4
+            ]
+          },
+          {
+            "label": "その他",
+            "data": [
+              4,
+              4,
+              6,
+              4,
+              5,
+              4,
+              12,
+              11,
+              6,
+              4,
+              3,
+              3,
+              3,
+              2
+            ]
+          },
+          {
+            "label": "短大",
+            "data": [
+              6,
+              4,
+              5,
+              8,
+              4,
+              11,
+              10,
+              5,
+              5,
+              5,
+              3,
+              2,
+              2,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    "eiken": {
+      "ready": true,
+      "total_students": 155,
+      "holders": 46,
+      "grade_breakdown": [
+        {
+          "label": "1（準）",
+          "count": 1
+        },
+        {
+          "label": "2",
+          "count": 9
+        },
+        {
+          "label": "2（準）",
+          "count": 19
+        },
+        {
+          "label": "3",
+          "count": 17
+        }
+      ],
+      "source_updated": "2023-09-20"
+    },
+    "mock_exam": {
+      "ready": false,
+      "note": "模試・学習状況データは今後追加予定"
+    },
+    "charm_survey": {
+      "ready": true,
+      "respondents": 171,
+      "trait_averages": [
+        {
+          "label": "主体性",
+          "school_latest": 73.9,
+          "national_latest": 70.0
+        },
+        {
+          "label": "協働性",
+          "school_latest": 80.7,
+          "national_latest": 79.0
+        },
+        {
+          "label": "探究性",
+          "school_latest": 76.8,
+          "national_latest": 72.1
+        },
+        {
+          "label": "社会性",
+          "school_latest": 66.0,
+          "national_latest": 56.7
+        }
+      ],
+      "categories": [
+        {
+          "label": "主体性に関わる学習活動",
+          "school_latest": 64.0,
+          "school_prev": 59.5,
+          "national_latest": 55.0
+        },
+        {
+          "label": "協働性に関わる学習活動",
+          "school_latest": 80.6,
+          "school_prev": 75.0,
+          "national_latest": 77.0
+        },
+        {
+          "label": "探究性に関わる学習活動",
+          "school_latest": 77.4,
+          "school_prev": 70.2,
+          "national_latest": 63.3
+        },
+        {
+          "label": "社会性に関わる学習活動",
+          "school_latest": 67.1,
+          "school_prev": 53.6,
+          "national_latest": 49.3
+        },
+        {
+          "label": "主体性に関わる学習環境",
+          "school_latest": 90.4,
+          "school_prev": 86.0,
+          "national_latest": 89.2
+        },
+        {
+          "label": "協働性に関わる学習環境",
+          "school_latest": 84.0,
+          "school_prev": 75.7,
+          "national_latest": 80.3
+        },
+        {
+          "label": "探究性に関わる学習環境",
+          "school_latest": 86.3,
+          "school_prev": 79.3,
+          "national_latest": 84.1
+        },
+        {
+          "label": "社会性に関わる学習環境",
+          "school_latest": 82.3,
+          "school_prev": 76.1,
+          "national_latest": 70.2
+        },
+        {
+          "label": "主体性に関わる自己認識",
+          "school_latest": 73.6,
+          "school_prev": 63.6,
+          "national_latest": 70.5
+        },
+        {
+          "label": "協働性に関わる自己認識",
+          "school_latest": 78.9,
+          "school_prev": 74.4,
+          "national_latest": 79.4
+        },
+        {
+          "label": "探究性に関わる自己認識",
+          "school_latest": 72.9,
+          "school_prev": 62.7,
+          "national_latest": 70.1
+        },
+        {
+          "label": "社会性に関わる自己認識",
+          "school_latest": 60.6,
+          "school_prev": 52.5,
+          "national_latest": 62.3
+        },
+        {
+          "label": "主体性に関わる行動",
+          "school_latest": 76.3,
+          "school_prev": 68.3,
+          "national_latest": 69.8
+        },
+        {
+          "label": "協働性に関わる行動",
+          "school_latest": 73.7,
+          "school_prev": 69.8,
+          "national_latest": 72.4
+        },
+        {
+          "label": "探究性に関わる行動",
+          "school_latest": 72.8,
+          "school_prev": 56.2,
+          "national_latest": 65.4
+        },
+        {
+          "label": "社会性に関わる行動",
+          "school_latest": 61.8,
+          "school_prev": 45.6,
+          "national_latest": 38.7
+        },
+        {
+          "label": "学習・その他",
+          "school_latest": 57.6,
+          "school_prev": 53.1,
+          "national_latest": 63.9
+        },
+        {
+          "label": "主体性に関わるウェルビーイング",
+          "school_latest": 65.1,
+          "school_prev": 65.9,
+          "national_latest": 65.6
+        },
+        {
+          "label": "協働性に関わるウェルビーイング",
+          "school_latest": 86.5,
+          "school_prev": 85.6,
+          "national_latest": 85.7
+        },
+        {
+          "label": "探究性に関わるウェルビーイング",
+          "school_latest": 74.7,
+          "school_prev": 70.8,
+          "national_latest": 77.6
+        },
+        {
+          "label": "社会性に関わるウェルビーイング",
+          "school_latest": 58.2,
+          "school_prev": 47.2,
+          "national_latest": 62.8
+        }
+      ],
+      "source_updated": "2026-08-25"
+    }
+  },
+  "financial_support": {
+    "ready": true,
+    "unit": "千円",
+    "fiscal_year_current": "R8",
+    "fiscal_year_prior": "R7",
+    "total_r7": 232751,
+    "total_r8": 243926,
+    "total_diff": 11175,
+    "general_fund": 59323,
+    "grant_total": 184603,
+    "general_fund_ratio_percent": 24.3,
+    "fund_breakdown": {
+      "国": 28062,
+      "道": 0,
+      "地方債": 42000,
+      "その他": 92641,
+      "特別交付税": 21900,
+      "一財": 59323
+    },
+    "categories": [
+      {
+        "label": "学習支援",
+        "r7": 53265,
+        "r8": 51528,
+        "diff": -1737,
+        "projects": [
+          {
+            "label": "カナダ短期留学（海外派遣事業）",
+            "r7": 46418,
+            "r8": 44654,
+            "diff": -1764
+          },
+          {
+            "label": "オンライン公設塾",
+            "r7": 4693,
+            "r8": 4727,
+            "diff": 34
+          },
+          {
+            "label": "生徒用タブレット整備事業",
+            "r7": 2074,
+            "r8": 2067,
+            "diff": -7
+          },
+          {
+            "label": "高校インターネット料",
+            "r7": 80,
+            "r8": 80,
+            "diff": 0
+          }
+        ]
+      },
+      {
+        "label": "部活動等支援",
+        "r7": 600,
+        "r8": 600,
+        "diff": 0,
+        "projects": [
+          {
+            "label": "高校教育振興補助金",
+            "r7": 600,
+            "r8": 600,
+            "diff": 0
+          }
+        ]
+      },
+      {
+        "label": "通学環境整備",
+        "r7": 109096,
+        "r8": 138210,
+        "diff": 29114,
+        "projects": [
+          {
+            "label": "シェアハウス運営（Penguin House）",
+            "r7": 20248,
+            "r8": 48756,
+            "diff": 28508
+          },
+          {
+            "label": "高校寄宿舎事業（Penguin Dormitory）",
+            "r7": 55264,
+            "r8": 48172,
+            "diff": -7092
+          },
+          {
+            "label": "通学費外助成（通学費・下宿）",
+            "r7": 16832,
+            "r8": 21030,
+            "diff": 4198
+          },
+          {
+            "label": "通学バス運行",
+            "r7": 13752,
+            "r8": 17252,
+            "diff": 3500
+          },
+          {
+            "label": "女子寮運営（委託）",
+            "r7": 3000,
+            "r8": 3000,
+            "diff": 0
+          }
+        ]
+      },
+      {
+        "label": "経済支援",
+        "r7": 7192,
+        "r8": 7812,
+        "diff": 620,
+        "projects": [
+          {
+            "label": "入学準備・見学旅行助成",
+            "r7": 7000,
+            "r8": 7620,
+            "diff": 620
+          },
+          {
+            "label": "武藤孔二記念奨学補助金",
+            "r7": 192,
+            "r8": 192,
+            "diff": 0
+          }
+        ]
+      },
+      {
+        "label": "進路支援",
+        "r7": 34582,
+        "r8": 29305,
+        "diff": -5277,
+        "projects": [
+          {
+            "label": "修学資金貸付金",
+            "r7": 34582,
+            "r8": 29305,
+            "diff": -5277
+          }
+        ]
+      },
+      {
+        "label": "入学者対策",
+        "r7": 28016,
+        "r8": 16471,
+        "diff": -11545,
+        "projects": [
+          {
+            "label": "コーディネーター任用",
+            "r7": 20800,
+            "r8": 11000,
+            "diff": -9800
+          },
+          {
+            "label": "協力会補助金（全国募集事業費等）",
+            "r7": 7216,
+            "r8": 5471,
+            "diff": -1745
+          }
+        ]
+      }
+    ],
+    "source_updated": "2026-08-29"
+  },
+  "dormitory": {
+    "summary": {
+      "ready": true,
+      "total": 48,
+      "male": 20,
+      "female": 28,
+      "by_facility": [
+        {
+          "name": "ペンギンドミトリー",
+          "count": 28,
+          "male": 11,
+          "female": 17,
+          "capacity_male": 20,
+          "capacity_female": 20,
+          "capacity_total": 40,
+          "male_by_grade": [
+            {
+              "grade": "1年生",
+              "count": 2
+            },
+            {
+              "grade": "2年生",
+              "count": 5
+            },
+            {
+              "grade": "3年生",
+              "count": 4
+            }
+          ],
+          "female_by_grade": [
+            {
+              "grade": "1年生",
+              "count": 0
+            },
+            {
+              "grade": "2年生",
+              "count": 16
+            },
+            {
+              "grade": "3年生",
+              "count": 1
+            }
+          ],
+          "prefecture_matrix": [
+            {
+              "prefecture": "北海道",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 4,
+                  "female": 10
+                },
+                "3年生": {
+                  "male": 3,
+                  "female": 0
+                }
+              },
+              "total": 17
+            },
+            {
+              "prefecture": "青森県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "茨城県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 1
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "栃木県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "群馬県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 1,
+                  "female": 0
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "埼玉県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "千葉県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 1,
+                  "female": 2
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 3
+            },
+            {
+              "prefecture": "神奈川県",
+              "counts": {
+                "1年生": {
+                  "male": 2,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 2
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 4
+            },
+            {
+              "prefecture": "長野県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 1
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "岐阜県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 1
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "大阪府",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "沖縄県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "海外",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            }
+          ]
+        },
+        {
+          "name": "ペンギンハウス",
+          "count": 20,
+          "male": 9,
+          "female": 11,
+          "capacity_male": null,
+          "capacity_female": null,
+          "capacity_total": 33,
+          "male_by_grade": [
+            {
+              "grade": "1年生",
+              "count": 0
+            },
+            {
+              "grade": "2年生",
+              "count": 4
+            },
+            {
+              "grade": "3年生",
+              "count": 5
+            }
+          ],
+          "female_by_grade": [
+            {
+              "grade": "1年生",
+              "count": 4
+            },
+            {
+              "grade": "2年生",
+              "count": 1
+            },
+            {
+              "grade": "3年生",
+              "count": 6
+            }
+          ],
+          "prefecture_matrix": [
+            {
+              "prefecture": "北海道",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 2
+                },
+                "2年生": {
+                  "male": 2,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 2,
+                  "female": 4
+                }
+              },
+              "total": 10
+            },
+            {
+              "prefecture": "青森県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 1
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "茨城県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "栃木県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 1
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "群馬県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "埼玉県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 1,
+                  "female": 0
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "千葉県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 1
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "神奈川県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "長野県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 1,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 1,
+                  "female": 0
+                }
+              },
+              "total": 2
+            },
+            {
+              "prefecture": "岐阜県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 0
+            },
+            {
+              "prefecture": "大阪府",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 1
+                },
+                "2年生": {
+                  "male": 1,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 2
+            },
+            {
+              "prefecture": "沖縄県",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 1
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 0,
+                  "female": 0
+                }
+              },
+              "total": 1
+            },
+            {
+              "prefecture": "海外",
+              "counts": {
+                "1年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "2年生": {
+                  "male": 0,
+                  "female": 0
+                },
+                "3年生": {
+                  "male": 1,
+                  "female": 0
+                }
+              },
+              "total": 1
+            }
+          ]
+        }
+      ],
+      "by_grade": [
+        {
+          "grade": "1年生",
+          "count": 6,
+          "male": 2,
+          "female": 4
+        },
+        {
+          "grade": "2年生",
+          "count": 26,
+          "male": 9,
+          "female": 17
+        },
+        {
+          "grade": "3年生",
+          "count": 16,
+          "male": 9,
+          "female": 7
+        }
+      ],
+      "by_prefecture": [
+        {
+          "prefecture": "北海道",
+          "count": 27,
+          "male": 11,
+          "female": 16
+        },
+        {
+          "prefecture": "千葉県",
+          "count": 4,
+          "male": 1,
+          "female": 3
+        },
+        {
+          "prefecture": "神奈川県",
+          "count": 4,
+          "male": 2,
+          "female": 2
+        },
+        {
+          "prefecture": "長野県",
+          "count": 3,
+          "male": 2,
+          "female": 1
+        },
+        {
+          "prefecture": "大阪府",
+          "count": 2,
+          "male": 1,
+          "female": 1
+        },
+        {
+          "prefecture": "茨城県",
+          "count": 1,
+          "male": 0,
+          "female": 1
+        },
+        {
+          "prefecture": "青森県",
+          "count": 1,
+          "male": 0,
+          "female": 1
+        },
+        {
+          "prefecture": "沖縄県",
+          "count": 1,
+          "male": 0,
+          "female": 1
+        },
+        {
+          "prefecture": "海外",
+          "count": 1,
+          "male": 1,
+          "female": 0
+        },
+        {
+          "prefecture": "岐阜県",
+          "count": 1,
+          "male": 0,
+          "female": 1
+        },
+        {
+          "prefecture": "栃木県",
+          "count": 1,
+          "male": 0,
+          "female": 1
+        },
+        {
+          "prefecture": "群馬県",
+          "count": 1,
+          "male": 1,
+          "female": 0
+        },
+        {
+          "prefecture": "埼玉県",
+          "count": 1,
+          "male": 1,
+          "female": 0
+        }
+      ],
+      "prefecture_order": [
+        "北海道",
+        "青森県",
+        "茨城県",
+        "栃木県",
+        "群馬県",
+        "埼玉県",
+        "千葉県",
+        "神奈川県",
+        "長野県",
+        "岐阜県",
+        "大阪府",
+        "沖縄県",
+        "海外"
+      ],
+      "grade_order": [
+        "1年生",
+        "2年生",
+        "3年生"
+      ],
+      "source_updated": "2026-07-03"
+    }
+  }
+};
