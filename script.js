@@ -246,7 +246,7 @@ function renderEnrollment(d) {
     data: { labels: d.by_grade.map((g) => g.label), datasets: [{ data: d.by_grade.map((g) => g.count), backgroundColor: OVERVIEW_PALETTE, borderColor: "#25272c", borderWidth: 2 }] },
     options: {
       responsive: true, maintainAspectRatio: false, cutout: "62%",
-      plugins: { legend: { position: "bottom", labels: { color: COLOR.textSub } }, tooltip: darkTooltip({ callbacks: { label: (ctx) => `${ctx.label}: ${ctx.raw}人` } }) },
+      plugins: { legend: { position: "bottom", align: "start", labels: { color: COLOR.textSub } }, tooltip: darkTooltip({ callbacks: { label: (ctx) => `${ctx.label}: ${ctx.raw}人` } }) },
     },
   });
 }
@@ -288,7 +288,7 @@ function renderOriginTrend(d) {
         y: { stacked: true, beginAtZero: true, max: 80, grid: { color: COLOR.gridLine }, ticks: { color: COLOR.textSub } },
       },
       plugins: {
-        legend: { position: "bottom", labels: { color: COLOR.textSub } },
+        legend: { position: "bottom", align: "start", labels: { color: COLOR.textSub } },
         tooltip: darkTooltip(),
         yearMarker: { enabled: markerIndex >= 0, index: markerIndex, label: "2023年度〜 地域みらい留学制度加盟" },
       },
@@ -342,7 +342,7 @@ function renderEnrollmentOrigin(d) {
     options: {
       responsive: true, maintainAspectRatio: false, cutout: "58%",
       plugins: {
-        legend: { position: "bottom", labels: { color: COLOR.textSub, generateLabels: legendWithValues("人") } },
+        legend: { position: "bottom", align: "start", labels: { color: COLOR.textSub, generateLabels: legendWithValues("人") } },
         tooltip: darkTooltip({ callbacks: { label: (ctx) => `${ctx.label}: ${ctx.raw}人` } }),
         sliceLabels: { enabled: true },
       },
@@ -383,7 +383,7 @@ function renderInquiry(d) {
     options: {
       indexAxis: "y",
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { position: "bottom", labels: { color: COLOR.textSub } }, tooltip: darkTooltip() },
+      plugins: { legend: { position: "bottom", align: "start", labels: { color: COLOR.textSub } }, tooltip: darkTooltip() },
       scales: {
         x: { beginAtZero: true, max: 100, grid: { color: COLOR.gridLine }, ticks: { color: COLOR.textSub }, title: { display: true, text: "肯定的回答率(%)", color: COLOR.textSub } },
         y: { grid: { display: false }, ticks: { color: COLOR.textSub } },
@@ -438,7 +438,7 @@ function renderCareer(d) {
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { position: "bottom", labels: { color: COLOR.textSub, boxWidth: 12 } },
+        legend: { position: "bottom", align: "start", labels: { color: COLOR.textSub, boxWidth: 12 } },
         tooltip: darkTooltip({ callbacks: { label: (ctx) => `${ctx.dataset.label}: ${ctx.raw}人` } }),
       },
       scales: {
@@ -517,7 +517,7 @@ function renderFinanceCategoryChart(d) {
     options: {
       responsive: true, maintainAspectRatio: false, cutout: "58%",
       plugins: {
-        legend: { position: "bottom", labels: { color: COLOR.textSub, generateLabels: legendWithValues("千円") } },
+        legend: { position: "bottom", align: "start", labels: { color: COLOR.textSub, generateLabels: legendWithValues("千円") } },
         tooltip: darkTooltip({ callbacks: { label: (ctx) => `${ctx.label}: ${ctx.raw.toLocaleString("ja-JP")}千円` } }),
         sliceLabels: { enabled: true },
       },
@@ -781,14 +781,14 @@ function renderDormitory(d) {
         x: { stacked: true, grid: { display: false }, ticks: { color: COLOR.textSub } },
         y: { stacked: true, beginAtZero: true, grid: { color: COLOR.gridLine }, ticks: { color: COLOR.textSub } },
       },
-      plugins: { legend: { position: "bottom", labels: { color: COLOR.textSub } }, tooltip: darkTooltip() },
+      plugins: { legend: { position: "bottom", align: "start", labels: { color: COLOR.textSub } }, tooltip: darkTooltip() },
     },
   });
 
   new Chart(document.getElementById("chart-dorm-grade"), {
     type: "doughnut",
     data: { labels: d.by_grade.map((g) => g.grade), datasets: [{ data: d.by_grade.map((g) => g.count), backgroundColor: DORM_PALETTE, borderColor: "#25272c", borderWidth: 2 }] },
-    options: { responsive: true, maintainAspectRatio: false, cutout: "62%", plugins: { legend: { position: "bottom", labels: { color: COLOR.textSub } }, tooltip: darkTooltip() } },
+    options: { responsive: true, maintainAspectRatio: false, cutout: "62%", plugins: { legend: { position: "bottom", align: "start", labels: { color: COLOR.textSub } }, tooltip: darkTooltip() } },
   });
 
   renderDormFacilityList(d.by_facility);
