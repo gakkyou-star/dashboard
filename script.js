@@ -275,24 +275,11 @@ function renderOriginTrend(d) {
     tension: 0.3,
     stack: "total-line",
   };
-  const outsideLine = {
-    type: "line",
-    label: "町外",
-    data: d.years.map((y) => y.total - ((y.breakdown.find((b) => b.label === "町内") || {}).count || 0)),
-    borderColor: COLOR.neutral,
-    backgroundColor: COLOR.neutral,
-    borderWidth: 2,
-    borderDash: [5, 3],
-    pointRadius: 2,
-    tension: 0.3,
-    stack: "outside-line",
-  };
-
   const markerIndex = labels.indexOf("2023");
 
   new Chart(document.getElementById("chart-origin-trend"), {
     type: "bar",
-    data: { labels, datasets: [...stackDatasets, totalLine, outsideLine] },
+    data: { labels, datasets: [...stackDatasets, totalLine] },
     options: {
       responsive: true, maintainAspectRatio: false,
       layout: { padding: { top: 22 } },
