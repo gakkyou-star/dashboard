@@ -56,24 +56,6 @@ def not_ready(note="データ準備中"):
 def aggregate_school_overview():
     result = {}
 
-    # --- 在籍数・学年構成 -------------------------------------------------
-    roster_path = latest_file(["生徒/生徒一覧*.xlsx"])
-    if roster_path:
-        df = pd.read_excel(roster_path, sheet_name="マージ")
-        hs = df[df["学校名"] == SCHOOL_NAME].copy()
-        total = int(len(hs))
-        grade_map = {10: "1年", 11: "2年", 12: "3年"}
-        hs["学年表示"] = hs["学年"].map(grade_map)
-        grade_counts = hs["学年表示"].value_counts().reindex(["1年", "2年", "3年"]).fillna(0).astype(int)
-        result["enrollment"] = {
-            "ready": True,
-            "total": total,
-            "by_grade": [{"label": g, "count": int(c)} for g, c in grade_counts.items()],
-            "source_updated": datetime.fromtimestamp(os.path.getmtime(roster_path)).strftime("%Y-%m-%d"),
-        }
-    else:
-        result["enrollment"] = not_ready()
-
     # --- 出身地域別内訳（町内／十勝管内／道内／道外）・入学者推移（経年） -------
     # 「鹿高入学者推移.xlsx」の「入学者内訳」シートは2022〜2025年度分のみで
     # 2026年度が欠けているため、全年度（1986〜）を持つ「データ」シートの
@@ -113,6 +95,28 @@ def aggregate_school_overview():
             result["admission_trend"] = not_ready()
     else:
         result["admission_trend"] = not_ready()
+
+    # --- 在籍数・学年構成（推計） -------------------------------------------
+    # 生徒一覧.xlsx（生徒/生徒一覧.xlsx）は2023-09-14時点の実数だが更新が止まっており
+    # 現況を反映していないため、より新しい「鹿高入学者推移.xlsx」の入学者数（直近3年度）を
+    # 各学年の在籍数として代用する推計値を採用する（転入出等の差は反映されない）。
+    recent_series = series[-3:]
+    if recent_series:
+        grade_labels = ["1年", "2年", "3年"]
+        by_grade = [
+            {"label": label, "count": recent_series[-(i + 1)]["count"]}
+            for i, label in enumerate(grade_labels)
+            if i < len(recent_series)
+        ]
+        result["enrollment"] = {
+            "ready": True,
+            "total": sum(g["count"] for g in by_grade),
+            "by_grade": by_grade,
+            "estimated": True,
+            "source_updated": datetime.fromtimestamp(os.path.getmtime(trend_path)).strftime("%Y-%m-%d"),
+        }
+    else:
+        result["enrollment"] = not_ready()
 
     if origin_years:
         result["origin_region"] = {"ready": True, "years": origin_years}

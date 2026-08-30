@@ -1,25 +1,6 @@
 window.DASHBOARD_DATA = {
-  "generated_at": "2026-08-30 12:46",
+  "generated_at": "2026-08-30 13:00",
   "school_overview": {
-    "enrollment": {
-      "ready": true,
-      "total": 155,
-      "by_grade": [
-        {
-          "label": "1年",
-          "count": 55
-        },
-        {
-          "label": "2年",
-          "count": 49
-        },
-        {
-          "label": "3年",
-          "count": 51
-        }
-      ],
-      "source_updated": "2023-09-14"
-    },
     "admission_trend": {
       "ready": true,
       "series": [
@@ -229,6 +210,26 @@ window.DASHBOARD_DATA = {
           "local_rate": 36.4
         }
       ]
+    },
+    "enrollment": {
+      "ready": true,
+      "total": 199,
+      "by_grade": [
+        {
+          "label": "1年",
+          "count": 45
+        },
+        {
+          "label": "2年",
+          "count": 79
+        },
+        {
+          "label": "3年",
+          "count": 75
+        }
+      ],
+      "estimated": true,
+      "source_updated": "2026-07-02"
     },
     "origin_region": {
       "ready": true,
@@ -2101,16 +2102,22 @@ window.DASHBOARD_DATA = {
           "female": 1
         },
         {
-          "prefecture": "茨城県",
-          "count": 1,
-          "male": 0,
-          "female": 1
-        },
-        {
           "prefecture": "埼玉県",
           "count": 1,
           "male": 1,
           "female": 0
+        },
+        {
+          "prefecture": "海外",
+          "count": 1,
+          "male": 1,
+          "female": 0
+        },
+        {
+          "prefecture": "栃木県",
+          "count": 1,
+          "male": 0,
+          "female": 1
         },
         {
           "prefecture": "沖縄県",
@@ -2119,16 +2126,10 @@ window.DASHBOARD_DATA = {
           "female": 1
         },
         {
-          "prefecture": "青森県",
+          "prefecture": "茨城県",
           "count": 1,
           "male": 0,
           "female": 1
-        },
-        {
-          "prefecture": "海外",
-          "count": 1,
-          "male": 1,
-          "female": 0
         },
         {
           "prefecture": "群馬県",
@@ -2143,7 +2144,7 @@ window.DASHBOARD_DATA = {
           "female": 1
         },
         {
-          "prefecture": "栃木県",
+          "prefecture": "青森県",
           "count": 1,
           "male": 0,
           "female": 1

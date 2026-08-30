@@ -239,7 +239,8 @@ function renderSummaryCards(data) {
 
 /* ---------------- 学校概況 ---------------- */
 function renderEnrollment(d) {
-  document.getElementById("enrollment-updated").textContent = d.source_updated ? `データ更新日: ${d.source_updated}` : "";
+  const prefix = d.estimated ? "入学者数からの推計／" : "";
+  document.getElementById("enrollment-updated").textContent = d.source_updated ? `${prefix}データ更新日: ${d.source_updated}` : "";
   if (!d.ready) return;
   new Chart(document.getElementById("chart-enrollment"), {
     type: "doughnut",
