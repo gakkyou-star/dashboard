@@ -459,7 +459,7 @@ function renderEiken(d) {
 }
 
 
-/* ---------------- 経済支援 ---------------- */
+/* ---------------- 財政支援 ---------------- */
 function fmtSen(n) {
   return `${n.toLocaleString("ja-JP")}千円`;
 }
