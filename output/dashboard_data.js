@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generated_at": "2026-08-29 10:24",
+  "generated_at": "2026-08-30 12:46",
   "school_overview": {
     "enrollment": {
       "ready": true,
@@ -1493,7 +1493,7 @@ window.DASHBOARD_DATA = {
         ]
       }
     ],
-    "source_updated": "2026-08-29"
+    "source_updated": "2026-08-30"
   },
   "dormitory": {
     "summary": {
@@ -2077,16 +2077,16 @@ window.DASHBOARD_DATA = {
           "female": 16
         },
         {
-          "prefecture": "千葉県",
-          "count": 4,
-          "male": 1,
-          "female": 3
-        },
-        {
           "prefecture": "神奈川県",
           "count": 4,
           "male": 2,
           "female": 2
+        },
+        {
+          "prefecture": "千葉県",
+          "count": 4,
+          "male": 1,
+          "female": 3
         },
         {
           "prefecture": "長野県",
@@ -2107,10 +2107,10 @@ window.DASHBOARD_DATA = {
           "female": 1
         },
         {
-          "prefecture": "青森県",
+          "prefecture": "埼玉県",
           "count": 1,
-          "male": 0,
-          "female": 1
+          "male": 1,
+          "female": 0
         },
         {
           "prefecture": "沖縄県",
@@ -2119,7 +2119,19 @@ window.DASHBOARD_DATA = {
           "female": 1
         },
         {
+          "prefecture": "青森県",
+          "count": 1,
+          "male": 0,
+          "female": 1
+        },
+        {
           "prefecture": "海外",
+          "count": 1,
+          "male": 1,
+          "female": 0
+        },
+        {
+          "prefecture": "群馬県",
           "count": 1,
           "male": 1,
           "female": 0
@@ -2135,18 +2147,6 @@ window.DASHBOARD_DATA = {
           "count": 1,
           "male": 0,
           "female": 1
-        },
-        {
-          "prefecture": "群馬県",
-          "count": 1,
-          "male": 1,
-          "female": 0
-        },
-        {
-          "prefecture": "埼玉県",
-          "count": 1,
-          "male": 1,
-          "female": 0
         }
       ],
       "prefecture_order": [
